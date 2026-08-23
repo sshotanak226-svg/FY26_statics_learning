@@ -1,6 +1,7 @@
 {
   "enabledCssSnippets": [
     "block",
-    "math-callouts"
+    "math-callouts",
+    "strike"
   ]
 }

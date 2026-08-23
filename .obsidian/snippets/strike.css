@@ -1,0 +1,54 @@
+/* ===== Strike Callout ===== */
+
+.callout[data-callout="strike"] {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+}
+
+/* タイトルを消す */
+.callout[data-callout="strike"] .callout-title {
+    display: none !important;
+}
+
+
+/* ===== 内容全体 ===== */
+
+.callout[data-callout="strike"] .callout-content {
+    position: relative !important;
+
+    /* 全体を太字 */
+    font-weight: 700 !important;
+
+    /* 斜線をCalloutの外に出さない */
+    overflow: hidden;
+
+    /* 疑似要素の基準にする */
+    isolation: isolate;
+}
+
+
+/* ===== Callout全体を貫く一本の斜線 ===== */
+
+.callout[data-callout="strike"] .callout-content::after {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    /*
+      左下 → 右上へ一本の斜線
+    */
+    background:
+        linear-gradient(
+            to top right,
+            transparent calc(50% - 1.5px),
+            currentColor calc(50% - 1.5px),
+            currentColor calc(50% + 1.5px),
+            transparent calc(50% + 1.5px)
+        );
+
+    pointer-events: none;
+    z-index: 100;
+}
