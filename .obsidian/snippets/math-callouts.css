@@ -1,0 +1,146 @@
+/* =========================================================
+   Obsidian Math Callouts
+   定義 / 定理 / 命題 / 補題 / 性質 / 系 / 観察 / 注意 / 例 / 反例 / 証明
+   ========================================================= */
+
+/* ---------- 定義 ---------- */
+.callout[data-callout="definition"] {
+  --callout-color: 38, 139, 210;
+  --callout-icon: lucide-book-open;
+}
+
+/* ---------- 定理 ---------- */
+.callout[data-callout="theorem"] {
+  --callout-color: 126, 87, 194;
+  --callout-icon: lucide-sigma;
+}
+
+/* ---------- 命題 ---------- */
+.callout[data-callout="proposition"] {
+  --callout-color: 66, 133, 244;
+  --callout-icon: lucide-badge-check;
+}
+
+/* ---------- 補題 ---------- */
+.callout[data-callout="lemma"] {
+  --callout-color: 42, 157, 143;
+  --callout-icon: lucide-puzzle;
+}
+
+/* ---------- 性質 ---------- */
+.callout[data-callout="property"] {
+  --callout-color: 217, 142, 4;
+  --callout-icon: lucide-list-checks;
+}
+
+/* ---------- 系 ---------- */
+.callout[data-callout="corollary"] {
+  --callout-color: 32, 155, 120;
+  --callout-icon: lucide-git-branch;
+}
+
+/* ---------- 観察 ---------- */
+.callout[data-callout="observation"] {
+  --callout-color: 108, 117, 125;
+  --callout-icon: lucide-eye;
+}
+
+/* ---------- 注意・補足 ---------- */
+.callout[data-callout="remark"] {
+  --callout-color: 181, 137, 0;
+  --callout-icon: lucide-message-square-text;
+}
+
+/* ---------- 例 ---------- */
+.callout[data-callout="example"] {
+  --callout-color: 73, 150, 90;
+  --callout-icon: lucide-lightbulb;
+}
+
+/* ---------- 反例 ---------- */
+.callout[data-callout="counterexample"] {
+  --callout-color: 205, 75, 75;
+  --callout-icon: lucide-triangle-alert;
+}
+
+/* ---------- 証明 ---------- */
+.callout[data-callout="proof"] {
+  --callout-color: 110, 110, 120;
+  --callout-icon: lucide-pencil-line;
+}
+
+/* =========================================================
+   共通スタイル
+   ========================================================= */
+
+/* 数学系 Callout のタイトルを少し強調 */
+.callout:is(
+  [data-callout="definition"],
+  [data-callout="theorem"],
+  [data-callout="proposition"],
+  [data-callout="lemma"],
+  [data-callout="property"],
+  [data-callout="corollary"],
+  [data-callout="observation"],
+  [data-callout="remark"],
+  [data-callout="example"],
+  [data-callout="counterexample"],
+  [data-callout="proof"]
+) .callout-title {
+  font-weight: 650;
+}
+
+/* 本文の行間を少し広げる */
+.callout:is(
+  [data-callout="definition"],
+  [data-callout="theorem"],
+  [data-callout="proposition"],
+  [data-callout="lemma"],
+  [data-callout="property"],
+  [data-callout="corollary"],
+  [data-callout="observation"],
+  [data-callout="remark"],
+  [data-callout="example"],
+  [data-callout="counterexample"],
+  [data-callout="proof"]
+) .callout-content {
+  line-height: 1.65;
+}
+
+/* 証明は本文を少し控えめに */
+.callout[data-callout="proof"] {
+  border-left-width: 2px;
+}
+
+/* 証明末尾の QED を右寄せしたい場合に使うクラス
+   Markdown:
+   <span class="qed">□</span>
+*/
+.qed {
+  display: block;
+  text-align: right;
+  font-size: 1.05em;
+}
+
+/* =========================================================
+   任意: 数学系 Callout を少しコンパクトにしたい場合
+   下のコメントアウトを外してください。
+   ========================================================= */
+
+/*
+.callout:is(
+  [data-callout="definition"],
+  [data-callout="theorem"],
+  [data-callout="proposition"],
+  [data-callout="lemma"],
+  [data-callout="property"],
+  [data-callout="corollary"],
+  [data-callout="observation"],
+  [data-callout="remark"],
+  [data-callout="example"],
+  [data-callout="counterexample"],
+  [data-callout="proof"]
+) {
+  padding: 10px 12px;
+}
+*/

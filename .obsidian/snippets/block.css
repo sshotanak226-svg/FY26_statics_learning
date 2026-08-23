@@ -1,0 +1,15 @@
+/* ========================================
+   Advanced / 難しい内容
+   ======================================== */
+
+.callout[data-callout="advanced"] {
+    --callout-color: 145, 90, 200;
+    --callout-icon: lucide-brain;
+
+    border-left: 4px solid rgb(var(--callout-color));
+}
+
+/* タイトルを少し強調 */
+.callout[data-callout="advanced"] .callout-title {
+    font-weight: 700;
+}
