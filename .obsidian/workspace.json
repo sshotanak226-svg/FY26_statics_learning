@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5be8b7e5c4f3239f",
+        "id": "311c4fbe7f1973cd",
         "type": "tabs",
         "children": [
           {
-            "id": "e190c0e01c677c7a",
+            "id": "85d9660abefea644",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -188,11 +188,16 @@
       "bases:新規ベースを作成": false
     }
   },
-  "active": "e190c0e01c677c7a",
+  "active": "85d9660abefea644",
   "lastOpenFiles": [
-    "補足資料/シグマ加法族.md",
+    "補足資料/ちょっとシンプソンパラドックス詳しく.md",
+    "img/Pasted image 20260829140518.png",
+    "img/Pasted image 20260829134901.png",
     "Chapter1.md",
     "はじめに.md",
+    "img",
+    "img/Pasted image 20260825215517.png",
+    "補足資料/シグマ加法族.md",
     "補足資料/ｓｄ.md",
     "補足資料/事象・加法族・シグマ加法族.md",
     "補足資料/事象・加法族・シグマ加法族 1.md",
