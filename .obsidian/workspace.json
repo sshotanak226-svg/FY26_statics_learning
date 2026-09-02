@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "311c4fbe7f1973cd",
+        "id": "e324ecb2d2eb0bdb",
         "type": "tabs",
         "children": [
           {
-            "id": "85d9660abefea644",
+            "id": "f0addb50e9ca73d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "Chapter1"
             }
+          },
+          {
+            "id": "14987c217c9371e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "補足資料/二項定理の一般化.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "二項定理の一般化"
+            }
+          },
+          {
+            "id": "5f1bae92228c1bcc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "補足資料/野場さんから聞いた情報論の話.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "野場さんから聞いた情報論の話"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -188,16 +217,19 @@
       "bases:新規ベースを作成": false
     }
   },
-  "active": "85d9660abefea644",
+  "active": "5f1bae92228c1bcc",
   "lastOpenFiles": [
+    "Chapter1.md",
+    "補足資料/二項定理の一般化.md",
+    "補足資料/野場さんから聞いた情報論の話.md",
+    "img/Pasted image 20260902134442.png",
     "補足資料/ちょっとシンプソンパラドックス詳しく.md",
     "img/Pasted image 20260829140518.png",
     "img/Pasted image 20260829134901.png",
-    "Chapter1.md",
-    "はじめに.md",
-    "img",
     "img/Pasted image 20260825215517.png",
+    "img",
     "補足資料/シグマ加法族.md",
+    "はじめに.md",
     "補足資料/ｓｄ.md",
     "補足資料/事象・加法族・シグマ加法族.md",
     "補足資料/事象・加法族・シグマ加法族 1.md",
