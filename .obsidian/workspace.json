@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chapter1.md",
+                "file": "Chapter9.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter1"
+              "title": "Chapter9"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "補足資料/野場さんから聞いた情報論の話.md",
+                "file": "Chapter9.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "野場さんから聞いた情報論の話"
+              "title": "Chapter9"
             }
           },
           {
@@ -63,8 +63,7 @@
               "title": "確率分布の関係性の目次"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -231,28 +230,40 @@
       "bases:新規ベースを作成": false
     }
   },
-  "active": "5f1bae92228c1bcc",
+  "active": "f0addb50e9ca73d8",
   "lastOpenFiles": [
+    "Chapter2_1.md",
+    "Chapter9.md",
+    "0928_事前課題/正規分布と標本平均_数式の詳細解説.md",
+    "Chapter1.md",
+    "0928_事前課題/desktop.ini",
+    "無題のフォルダ/desktop.ini",
+    "0928_事前課題",
+    "補足資料/desktop.ini",
+    "img/desktop.ini",
+    "無題のファイル.base",
+    "補足資料/負の二項分布の総和のための級数.md",
+    "補足資料/野場さんから聞いた情報論の話.md",
+    "補足資料/二項定理の一般化.md",
+    "img/Pasted image 20260912032852.png",
+    "未確認 497054.crdownload",
+    "未確認 80444.crdownload",
+    "未確認 371024.crdownload",
     "Chapter2.md",
+    "未確認 103020.crdownload",
     "補足資料/シグマ加法族.md",
     "補足資料/ちょっとシンプソンパラドックス詳しく.md",
     "補足資料/可測関数.md",
     "補足資料/確率分布の関係性の目次.md",
-    "補足資料/二項定理の一般化.md",
-    "補足資料/野場さんから聞いた情報論の話.md",
-    "Chapter1.md",
-    "無題のファイル.md",
     "img/Pasted image 20260902134442.png",
     "img/Pasted image 20260829140518.png",
     "img/Pasted image 20260829134901.png",
     "img/Pasted image 20260825215517.png",
-    "img",
     "はじめに.md",
     "補足資料/ｓｄ.md",
     "補足資料/事象・加法族・シグマ加法族.md",
     "補足資料/事象・加法族・シグマ加法族 1.md",
     "補足資料/事象・加法族・シグマ加法族 2.md",
-    "Pasted image 20260822093607.png",
-    "補足資料"
+    "Pasted image 20260822093607.png"
   ]
 }
