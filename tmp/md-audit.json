@@ -1,0 +1,26 @@
+{
+  "displayMath": 122,
+  "inlineMath": 283,
+  "failures": [],
+  "images": [
+    {
+      "path": "img/Chapter2_1_図2_5.jpg",
+      "exists": true
+    },
+    {
+      "path": "img/Chapter2_1_図2_8.jpg",
+      "exists": true
+    }
+  ],
+  "dollarDelimiterCount": 244,
+  "headings": [
+    "# 連続確率分布と特性値",
+    "# 正規分布",
+    "# 確率変数の関数の分布と変数変換",
+    "# 確率積分変換と逆変換",
+    "# 1対1でない変数変換と平方変換",
+    "# 標準正規変数の平方とカイ2乗分布",
+    "# 演習問題：二項分布の漸化式と最大値",
+    "# 今回の追記部分の対応表と参考資料"
+  ]
+}

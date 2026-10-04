@@ -1,0 +1,16 @@
+const fs=require('fs'),vm=require('vm');
+const html=fs.readFileSync('output/html/1005tdh統計勉強会_連続確率分布と変数変換.html','utf8');
+const engine=html.match(/<script id="math-engine">([\s\S]*?)<\/script>/)[1];
+const context={};vm.createContext(context);vm.runInContext(engine,context);
+const addition=fs.readFileSync('tmp/chapter2_continuation.md','utf8');
+const md=addition.split('\n').map(l=>l.replace(/^>\s?/, '')).join('\n');
+const blocks=[...md.matchAll(/\$\$([\s\S]*?)\$\$/g)];let failures=[];
+blocks.forEach((m,i)=>{try{context.katex.renderToString(m[1],{displayMode:true,throwOnError:true,strict:false});}catch(e){failures.push({block:i+1,error:e.message,tex:m[1]});}});
+const plain=md.replace(/\$\$[\s\S]*?\$\$/g,'');
+const inline=[...plain.matchAll(/(?<!\\)\$([^\n$]+?)\$/g)];
+inline.forEach((m,i)=>{try{context.katex.renderToString(m[1],{throwOnError:true,strict:false});}catch(e){failures.push({inline:i+1,error:e.message,tex:m[1]});}});
+const imagePaths=[...md.matchAll(/!\[[^\]]*\]\(([^)]+)\)/g)].map(m=>m[1]);
+const images=imagePaths.map(p=>({path:p,exists:fs.existsSync(p)}));
+const result={displayMath:blocks.length,inlineMath:inline.length,failures,images,dollarDelimiterCount:(md.match(/\$\$/g)||[]).length,headings:md.split('\n').filter(l=>l.startsWith('# '))};
+fs.writeFileSync('tmp/md-audit.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result,null,2));
+if(failures.length||images.some(x=>!x.exists))process.exitCode=1;

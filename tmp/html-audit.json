@@ -1,0 +1,283 @@
+{
+  "count": 34,
+  "errors": [],
+  "maths": [],
+  "agenda": 4,
+  "agendaTarget": 2,
+  "fields": 5,
+  "restored": "連続確率変数の分布を、密度と累積確率で表す",
+  "audit": [
+    {
+      "title": "連続確率分布と変数変換",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "アジェンダ",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "2.2.1　連続確率分布と特性値",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "確率密度関数",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "区間の確率と端点",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "分布関数と確率密度関数",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "分位点・メディアン・四分位点",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "定義2.8　連続確率変数の期待値",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "定義2.9　平均・分散・標準偏差",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "分散の計算式の導出",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "2.2.5　正規分布",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "正規分布の確率密度関数",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "標準正規分布",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "命題2.13　正規分布の平均と分散",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "命題2.13の証明　平均",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "命題2.13の証明　分散",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "2.3　確率変数の関数の分布と変数変換",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "線形変換　a > 0の場合",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "線形変換　a < 0の場合",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "命題2.15　正規分布の線形変換",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "標準化と正規分布の区間確率",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "命題2.16　変数変換の公式",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "命題2.16の証明　単調増加",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "単調減少と逆関数の微分",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "命題2.17　確率積分変換",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "命題2.18　逆分布関数による変換",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "置換積分と1対1でない変換",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "命題2.19　平方変換",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "命題2.19の証明",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "原点対称な密度の平方変換",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "命題2.20　標準正規変数の平方",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "命題2.20の証明　平方の密度",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "命題2.20の証明　ガンマ関数との関係",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    },
+    {
+      "title": "演習問題　問1（二項分布）",
+      "bad": [],
+      "overflow": [],
+      "mathErrors": 0,
+      "unrendered": false,
+      "footOverlap": false
+    }
+  ]
+}
