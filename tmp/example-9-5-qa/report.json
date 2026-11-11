@@ -1,0 +1,29 @@
+{
+  "count": 79,
+  "mainCount": 56,
+  "mathErrors": [],
+  "autosave": true,
+  "layout": [
+    {
+      "id": "normal-t-lr-transform",
+      "clipping": [],
+      "overflow": 0
+    },
+    {
+      "id": "normal-t-rejection-equivalence",
+      "clipping": [],
+      "overflow": 0
+    },
+    {
+      "id": "normal-t-null-distribution",
+      "clipping": [],
+      "overflow": 0
+    },
+    {
+      "id": "normal-t",
+      "clipping": [],
+      "overflow": 0
+    }
+  ],
+  "errors": []
+}

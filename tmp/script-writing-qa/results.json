@@ -1,0 +1,73 @@
+{
+  "slides": 88,
+  "desktop": {
+    "preview": {
+      "x": 46,
+      "y": 234.796875,
+      "w": 874.90625,
+      "h": 611.390625
+    },
+    "notes": {
+      "x": 944.90625,
+      "y": 230.796875,
+      "w": 729.09375,
+      "h": 675.203125
+    },
+    "stage": {
+      "x": 46.953155517578125,
+      "y": 294.953125,
+      "w": 873,
+      "h": 491.0625
+    },
+    "panel": {
+      "x": 24,
+      "y": 31.796875,
+      "w": 1672,
+      "h": 996.390625
+    },
+    "mathErrors": 0,
+    "previewTitle": "9.7.1　相関の統計量がt分布になる理由",
+    "expectedTitle": "9.7.1　相関の統計量がt分布になる理由"
+  },
+  "compact": {
+    "preview": {
+      "x": 46,
+      "y": 227,
+      "w": 536.71875,
+      "h": 367
+    },
+    "notes": {
+      "x": 606.71875,
+      "y": 223,
+      "w": 447.28125,
+      "h": 411.625
+    },
+    "stage": {
+      "x": 46.859375,
+      "y": 260.03125,
+      "w": 535,
+      "h": 300.9375
+    },
+    "panel": {
+      "x": 24,
+      "y": 24,
+      "w": 1052,
+      "h": 752
+    },
+    "mathErrors": 0,
+    "previewTitle": "9.7.1　相関の統計量がt分布になる理由",
+    "expectedTitle": "9.7.1　相関の統計量がt分布になる理由"
+  },
+  "checks": [
+    "left-right layout",
+    "page switching",
+    "notes-only changes",
+    "autosave restoration",
+    "saved HTML roundtrip",
+    "slide editor return",
+    "preview refresh",
+    "presenter edit entry and live sync",
+    "source controls/help removed"
+  ],
+  "errors": []
+}

@@ -1,0 +1,717 @@
+{
+  "file": "C:/Users/User/Downloads/９章　仮説検定と信頼区間_編集済み (23).html",
+  "report": [
+    {
+      "page": 1,
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 2,
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 3,
+      "id": "intro-9.1",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 4,
+      "id": "test-design",
+      "issues": [
+        {
+          "kind": "block",
+          "text": "\n同じ観測に対して、２つの仮説の下での確率が高いかを比較することでどちらを採択するかを判断する。\n\n帰無仮説H0H_0H0​ : ",
+          "x": 112,
+          "y": 180,
+          "w": 1376,
+          "h": 633
+        }
+      ],
+      "mathErrors": []
+    },
+    {
+      "page": 5,
+      "id": "coin-model",
+      "issues": [
+        {
+          "kind": "block",
+          "text": "\n表の確率を検定対象として、同じ観測を各仮説の下で比較して、どっちの仮説が正しいか検証する\nH0:θ=0.5H_0:\\theta=",
+          "x": 60,
+          "y": 187,
+          "w": 716,
+          "h": 619
+        }
+      ],
+      "mathErrors": []
+    },
+    {
+      "page": 6,
+      "id": "intro-9.2",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 7,
+      "id": "hypothesis-design",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 8,
+      "id": "test-rule",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 9,
+      "id": "errors-power",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 10,
+      "id": "slide-1791097900354-estok",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 11,
+      "id": "p-value",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 12,
+      "id": "intro-9.3",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 13,
+      "id": "np",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 14,
+      "id": "np-proof",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 15,
+      "id": "np-proof-integral",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 16,
+      "id": "ump-proposition",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 17,
+      "id": "ump-general",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 18,
+      "id": "normal-ump-proposition",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 19,
+      "id": "ump-proof",
+      "issues": [
+        {
+          "kind": "block",
+          "text": "\n手順1　既知分散の正規標本で平均の対立値を固定し、尤度比を求める。\n",
+          "x": 88,
+          "y": 195,
+          "w": 1424,
+          "h": 46
+        }
+      ],
+      "mathErrors": []
+    },
+    {
+      "page": 20,
+      "id": "general-lr",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 21,
+      "id": "wilks",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 22,
+      "id": "wilks-proof-one",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 23,
+      "id": "slide-1791897820648-9nfwe",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 24,
+      "id": "wilks-proof-limit",
+      "issues": [
+        {
+          "kind": "block",
+          "text": "\n手順1　曲率の確率極限は大数の法則より,最尤推定量の漸近正規性はスコアの中心極限定理より\n",
+          "x": 88,
+          "y": 178,
+          "w": 1424,
+          "h": 46
+        },
+        {
+          "kind": "block",
+          "text": "−2log⁡Λ≈−ℓ′′(θ^)nI(θ0) nI(θ0)(θ^−θ0)2,−ℓ′′(θ^)nI(θ0)→p1⟹−2log⁡Λ→d",
+          "x": 88,
+          "y": 622,
+          "w": 1424,
+          "h": 204
+        }
+      ],
+      "mathErrors": []
+    },
+    {
+      "page": 25,
+      "id": "normal-lr",
+      "issues": [
+        {
+          "kind": "block",
+          "text": "\n母分散が既知の正規標本について、母平均が指定値に等しいかを検定する。X1,…,Xn∼iidN(μ,σ02),H0:μ=μ0,H1",
+          "x": 112,
+          "y": 122,
+          "w": 1376,
+          "h": 749
+        },
+        {
+          "kind": "math",
+          "text": "X1​,…,Xn​∼iid",
+          "x": 430,
+          "y": 183,
+          "w": 195,
+          "h": 56
+        },
+        {
+          "kind": "math",
+          "text": "N(μ,σ02​),H0​:",
+          "x": 625,
+          "y": 184,
+          "w": 264,
+          "h": 55
+        },
+        {
+          "kind": "math",
+          "text": "μ=",
+          "x": 889,
+          "y": 184,
+          "w": 62,
+          "h": 55
+        },
+        {
+          "kind": "math",
+          "text": "μ0​,H1​:",
+          "x": 951,
+          "y": 184,
+          "w": 144,
+          "h": 55
+        },
+        {
+          "kind": "math",
+          "text": "μ=",
+          "x": 1095,
+          "y": 184,
+          "w": 62,
+          "h": 55
+        },
+        {
+          "kind": "math",
+          "text": "μ0​.",
+          "x": 1157,
+          "y": 184,
+          "w": 41,
+          "h": 55
+        },
+        {
+          "kind": "math",
+          "text": "R=",
+          "x": 527,
+          "y": 795,
+          "w": 67,
+          "h": 55
+        },
+        {
+          "kind": "math",
+          "text": "{D>",
+          "x": 594,
+          "y": 795,
+          "w": 86,
+          "h": 55
+        },
+        {
+          "kind": "math",
+          "text": "cα​}=",
+          "x": 680,
+          "y": 795,
+          "w": 89,
+          "h": 55
+        },
+        {
+          "kind": "math",
+          "text": "{∣Xˉ−μ0​∣>n​σ0​​cα​​}.",
+          "x": 768,
+          "y": 785,
+          "w": 333,
+          "h": 77
+        }
+      ],
+      "mathErrors": []
+    },
+    {
+      "page": 26,
+      "id": "intro-9.4",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 27,
+      "id": "pooled",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 28,
+      "id": "pooled-loglr",
+      "issues": [
+        {
+          "kind": "block",
+          "text": "D=Nlog⁡ ⁣(1+T2N−2).\nD=N\\log\\!\\left(1+\\frac{T^2}{N-2}\\right).\nD=Nl",
+          "x": 60,
+          "y": 730,
+          "w": 762,
+          "h": 102
+        },
+        {
+          "kind": "block",
+          "text": "χ²₁は漸近分布。有限標本の正確な境界は、次頁のt分布から決める。",
+          "x": 860,
+          "y": 757,
+          "w": 680,
+          "h": 93
+        }
+      ],
+      "mathErrors": []
+    },
+    {
+      "page": 29,
+      "id": "pooled-exact-t",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 30,
+      "id": "welch",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 31,
+      "id": "variance-test",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 32,
+      "id": "paired-t",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 33,
+      "id": "intro-9.5",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 34,
+      "id": "wald",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 35,
+      "id": "bernoulli-wald",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 36,
+      "id": "nonparam-mean",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 37,
+      "id": "paired-binary",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 38,
+      "id": "intro-9.6",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 39,
+      "id": "ci-inversion",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 40,
+      "id": "ci-coverage-proposition",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 41,
+      "id": "ci-proof",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 42,
+      "id": "coverage",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 43,
+      "id": "wald-ci",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 44,
+      "id": "paired-ci",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 45,
+      "id": "sample-size",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 46,
+      "id": "known-ci",
+      "issues": [
+        {
+          "kind": "block",
+          "text": "\n正規標本で母分散が既知の場合には、標準正規分布の両側境界を使う。\n\n受容条件を母平均について解き直し、標本平均を中心とする区間を",
+          "x": 60,
+          "y": 176,
+          "w": 716,
+          "h": 306
+        }
+      ],
+      "mathErrors": []
+    },
+    {
+      "page": 47,
+      "id": "unknown-ci",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 48,
+      "id": "intro-9.7",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 49,
+      "id": "correlation-definition",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 50,
+      "id": "corr-null",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 51,
+      "id": "fisher-z",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 52,
+      "id": "correlation-test",
+      "issues": [
+        {
+          "kind": "column",
+          "text": "",
+          "x": 488,
+          "right": 1854
+        }
+      ],
+      "mathErrors": []
+    },
+    {
+      "page": 53,
+      "id": "correlation-ci",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 54,
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 55,
+      "id": "appendix-mle-setting",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 56,
+      "id": "appendix-fisher-identity",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 57,
+      "id": "appendix-curvature-lln",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 58,
+      "id": "appendix-curvature-random",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 59,
+      "id": "appendix-score-clt",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 60,
+      "id": "appendix-score-mvt",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 61,
+      "id": "appendix-score-algebra",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 62,
+      "id": "appendix-mle-slutsky",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 63,
+      "id": "appendix-taylor-close",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 64,
+      "id": "appendix-taylor-remainder",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 65,
+      "id": "appendix-wilks-connection",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 66,
+      "id": "appendix-multi-null",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 67,
+      "id": "appendix-multi-estimators",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 68,
+      "id": "appendix-multi-information",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 69,
+      "id": "appendix-multi-score-expansion",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 70,
+      "id": "appendix-multi-normal",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 71,
+      "id": "appendix-multi-taylor",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 72,
+      "id": "appendix-multi-partition",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 73,
+      "id": "appendix-multi-square",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 74,
+      "id": "appendix-multi-covariance",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 75,
+      "id": "appendix-multi-whitening",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 76,
+      "id": "appendix-multi-df-summary",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 77,
+      "id": "normal-t-lr",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 78,
+      "id": "normal-t-lr-transform",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 79,
+      "id": "normal-t-rejection-equivalence",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 80,
+      "id": "normal-t-null-distribution",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 81,
+      "id": "normal-t",
+      "issues": [
+        {
+          "kind": "block",
+          "text": "\nH0H_0H0​ の下で T∼tn−1T\\sim t_{n-1}T∼tn−1​。上側 α/2\\alpha/2α/2 点を使い、両",
+          "x": 60,
+          "y": 183,
+          "w": 716,
+          "h": 93
+        },
+        {
+          "kind": "math",
+          "text": "H0​",
+          "x": 88,
+          "y": 188,
+          "w": 39,
+          "h": 40
+        },
+        {
+          "kind": "math",
+          "text": "T∼",
+          "x": 242,
+          "y": 188,
+          "w": 66,
+          "h": 40
+        },
+        {
+          "kind": "math",
+          "text": "tn−1​",
+          "x": 307,
+          "y": 188,
+          "w": 55,
+          "h": 40
+        },
+        {
+          "kind": "math",
+          "text": "α/2",
+          "x": 468,
+          "y": 188,
+          "w": 53,
+          "h": 40
+        }
+      ],
+      "mathErrors": []
+    },
+    {
+      "page": 82,
+      "id": "two-design",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 83,
+      "id": "slide-1791902681892-1f12n",
+      "issues": [
+        {
+          "kind": "block",
+          "text": "\n独立な正規標本では、不偏分散の分散を使って、平均差の推定分散 Q の平均・分散を求められる。Q=V12m+V22n,a=σ12m",
+          "x": 112,
+          "y": 178,
+          "w": 1376,
+          "h": 638
+        }
+      ],
+      "mathErrors": []
+    }
+  ],
+  "errors": []
+}

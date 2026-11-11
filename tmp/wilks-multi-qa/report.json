@@ -1,0 +1,922 @@
+{
+  "count": 76,
+  "mainCount": 53,
+  "mathErrors": [],
+  "pages": [
+    {
+      "id": "chapter",
+      "index": 0,
+      "title": "９章　仮説検定と信頼区間",
+      "appendix": false
+    },
+    {
+      "id": "agenda",
+      "index": 1,
+      "title": "スライド項目：アジェンダ",
+      "appendix": false
+    },
+    {
+      "id": "intro-9.1",
+      "index": 2,
+      "title": "9.1　概要：仮説検定とは",
+      "appendix": false
+    },
+    {
+      "id": "test-design",
+      "index": 3,
+      "title": "9.1.1　観測の確率と誤った判断",
+      "appendix": false
+    },
+    {
+      "id": "coin-model",
+      "index": 4,
+      "title": "9.1.2　コインの二つの仮説",
+      "appendix": false
+    },
+    {
+      "id": "intro-9.2",
+      "index": 5,
+      "title": "9.2　概要：統計的仮説検定の考え方",
+      "appendix": false
+    },
+    {
+      "id": "hypothesis-design",
+      "index": 6,
+      "title": "9.2.1　単純仮説と複合仮説",
+      "appendix": false
+    },
+    {
+      "id": "test-rule",
+      "index": 7,
+      "title": "9.2.1　検定統計量と棄却域",
+      "appendix": false
+    },
+    {
+      "id": "errors-power",
+      "index": 8,
+      "title": "9.2.2　有意水準と検出力",
+      "appendix": false
+    },
+    {
+      "id": "slide-1791097900354-estok",
+      "index": 9,
+      "title": "9.2.2　$P(・｜H_0),P(・｜H_1)$の書き方について",
+      "appendix": false
+    },
+    {
+      "id": "p-value",
+      "index": 10,
+      "title": "9.2.2　資料のp値の定義",
+      "appendix": false
+    },
+    {
+      "id": "intro-9.3",
+      "index": 11,
+      "title": "9.3　概要：尤度比検定",
+      "appendix": false
+    },
+    {
+      "id": "np",
+      "index": 12,
+      "title": "9.3.1　補題9.1：ネイマン–ピアソンの補題",
+      "appendix": false
+    },
+    {
+      "id": "np-proof",
+      "index": 13,
+      "title": "9.3.1　補題9.1の証明①：差を積分する",
+      "appendix": false
+    },
+    {
+      "id": "np-proof-integral",
+      "index": 14,
+      "title": "9.3.1　補題9.1の証明②：符号から結論へ",
+      "appendix": false
+    },
+    {
+      "id": "ump-proposition",
+      "index": 15,
+      "title": "9.3.1　補題9.2：一様最強力性の命題",
+      "appendix": false
+    },
+    {
+      "id": "ump-general",
+      "index": 16,
+      "title": "9.3.1　補題9.2：一様最強力性の証明",
+      "appendix": false
+    },
+    {
+      "id": "normal-ump-proposition",
+      "index": 17,
+      "title": "9.3.1　正規平均の一様最強力性の命題",
+      "appendix": false
+    },
+    {
+      "id": "ump-proof",
+      "index": 18,
+      "title": "9.3.1　正規平均の一様最強力性",
+      "appendix": false
+    },
+    {
+      "id": "general-lr",
+      "index": 19,
+      "title": "9.3.2　一般の尤度比検定",
+      "appendix": false
+    },
+    {
+      "id": "wilks",
+      "index": 20,
+      "title": "9.3.2　定理9.3：尤度比の漸近分布の命題",
+      "appendix": false
+    },
+    {
+      "id": "wilks-proof-one",
+      "index": 21,
+      "title": "9.3.2　定理9.3の証明①：二次展開",
+      "appendix": false
+    },
+    {
+      "id": "wilks-proof-limit",
+      "index": 22,
+      "title": "9.3.2　定理9.3の証明②：極限を組み合わせる",
+      "appendix": false
+    },
+    {
+      "id": "normal-lr",
+      "index": 23,
+      "title": "9.3.2　例9.4：既知分散の正規平均",
+      "appendix": false
+    },
+    {
+      "id": "normal-t-lr",
+      "index": 24,
+      "title": "9.3.2　例9.5：未知分散の尤度比",
+      "appendix": false
+    },
+    {
+      "id": "normal-t",
+      "index": 25,
+      "title": "9.3.2　例9.5：t分布による検定",
+      "appendix": false
+    },
+    {
+      "id": "intro-9.4",
+      "index": 26,
+      "title": "9.4　概要：2標本の正規母集団に関する検定",
+      "appendix": false
+    },
+    {
+      "id": "two-design",
+      "index": 27,
+      "title": "9.4　独立な二標本の問題設定",
+      "appendix": false
+    },
+    {
+      "id": "pooled",
+      "index": 28,
+      "title": "9.4.1　等分散の正規二標本",
+      "appendix": false
+    },
+    {
+      "id": "welch",
+      "index": 29,
+      "title": "9.4.1　等分散を置かない二標本",
+      "appendix": false
+    },
+    {
+      "id": "variance-test",
+      "index": 30,
+      "title": "9.4.2　正規二標本の分散比",
+      "appendix": false
+    },
+    {
+      "id": "paired-t",
+      "index": 31,
+      "title": "9.4.3　対応のある標本の検定",
+      "appendix": false
+    },
+    {
+      "id": "intro-9.5",
+      "index": 32,
+      "title": "9.5　概要：ワルド型検定",
+      "appendix": false
+    },
+    {
+      "id": "wald",
+      "index": 33,
+      "title": "9.5.1　最尤推定量を用いた検定",
+      "appendix": false
+    },
+    {
+      "id": "bernoulli-wald",
+      "index": 34,
+      "title": "9.5.1　例9.6：ベルヌーイ母数",
+      "appendix": false
+    },
+    {
+      "id": "nonparam-mean",
+      "index": 35,
+      "title": "9.5.2　母平均の検定",
+      "appendix": false
+    },
+    {
+      "id": "paired-binary",
+      "index": 36,
+      "title": "9.5.2　例9.7：夫婦の支持率の差",
+      "appendix": false
+    },
+    {
+      "id": "intro-9.6",
+      "index": 37,
+      "title": "9.6　概要：信頼区間",
+      "appendix": false
+    },
+    {
+      "id": "ci-inversion",
+      "index": 38,
+      "title": "9.6.1　定義9.8と検定の反転",
+      "appendix": false
+    },
+    {
+      "id": "ci-coverage-proposition",
+      "index": 39,
+      "title": "9.6.1　信頼集合の被覆確率の命題",
+      "appendix": false
+    },
+    {
+      "id": "ci-proof",
+      "index": 40,
+      "title": "9.6.1　信頼集合の被覆確率の証明",
+      "appendix": false
+    },
+    {
+      "id": "coverage",
+      "index": 41,
+      "title": "9.6.1　信頼係数の解釈",
+      "appendix": false
+    },
+    {
+      "id": "wald-ci",
+      "index": 42,
+      "title": "9.6.2　最尤推定量と母平均の区間",
+      "appendix": false
+    },
+    {
+      "id": "paired-ci",
+      "index": 43,
+      "title": "9.6.2　例9.11：夫婦の支持率差の区間",
+      "appendix": false
+    },
+    {
+      "id": "sample-size",
+      "index": 44,
+      "title": "9.6.3　例9.12：区間の幅と標本数",
+      "appendix": false
+    },
+    {
+      "id": "known-ci",
+      "index": 45,
+      "title": "9.6.3　正規平均・既知分散",
+      "appendix": false
+    },
+    {
+      "id": "unknown-ci",
+      "index": 46,
+      "title": "9.6.3　正規平均・未知分散",
+      "appendix": false
+    },
+    {
+      "id": "intro-9.7",
+      "index": 47,
+      "title": "9.7　概要：相関係数の検定とフィッシャーのz変換",
+      "appendix": false
+    },
+    {
+      "id": "correlation-definition",
+      "index": 48,
+      "title": "9.7.1　資料の標本相関係数",
+      "appendix": false
+    },
+    {
+      "id": "corr-null",
+      "index": 49,
+      "title": "9.7.1　母相関が零かどうかの検定",
+      "appendix": false
+    },
+    {
+      "id": "fisher-z",
+      "index": 50,
+      "title": "9.7.2　フィッシャーのz変換",
+      "appendix": false
+    },
+    {
+      "id": "correlation-test",
+      "index": 51,
+      "title": "9.7.3　都道府県データの検定",
+      "appendix": false
+    },
+    {
+      "id": "correlation-ci",
+      "index": 52,
+      "title": "9.7.3　相関係数の信頼区間",
+      "appendix": false
+    },
+    {
+      "id": "appendix-title",
+      "index": 53,
+      "title": "Appendix",
+      "appendix": true
+    },
+    {
+      "id": "appendix-mle-setting",
+      "index": 54,
+      "title": "A1　対数尤度・最尤推定量と前提",
+      "appendix": true
+    },
+    {
+      "id": "appendix-fisher-identity",
+      "index": 55,
+      "title": "A2　スコアとフィッシャー情報量",
+      "appendix": true
+    },
+    {
+      "id": "appendix-curvature-lln",
+      "index": 56,
+      "title": "A3　曲率の極限：大数の法則",
+      "appendix": true
+    },
+    {
+      "id": "appendix-curvature-random",
+      "index": 57,
+      "title": "A4　評価点を推定値に置き換える根拠",
+      "appendix": true
+    },
+    {
+      "id": "appendix-score-clt",
+      "index": 58,
+      "title": "A5　スコアの極限：中心極限定理",
+      "appendix": true
+    },
+    {
+      "id": "appendix-score-mvt",
+      "index": 59,
+      "title": "A6　スコアに平均値の定理を使う",
+      "appendix": true
+    },
+    {
+      "id": "appendix-score-algebra",
+      "index": 60,
+      "title": "A7　推定誤差を比の形に整理する",
+      "appendix": true
+    },
+    {
+      "id": "appendix-mle-slutsky",
+      "index": 61,
+      "title": "A8　比の極限から漸近正規性を得る",
+      "appendix": true
+    },
+    {
+      "id": "appendix-taylor-close",
+      "index": 62,
+      "title": "A9　二次近似に必要な「近さ」",
+      "appendix": true
+    },
+    {
+      "id": "appendix-taylor-remainder",
+      "index": 63,
+      "title": "A10　二次近似の剰余項を制御する",
+      "appendix": true
+    },
+    {
+      "id": "appendix-wilks-connection",
+      "index": 64,
+      "title": "A11　本編への接続：カイ二乗極限",
+      "appendix": true
+    },
+    {
+      "id": "appendix-multi-null",
+      "index": 65,
+      "title": "A12　多母数への拡張：前提と結論",
+      "appendix": true
+    },
+    {
+      "id": "appendix-multi-estimators",
+      "index": 66,
+      "title": "A13　帰無仮説の下でも動かせる母数",
+      "appendix": true
+    },
+    {
+      "id": "appendix-multi-information",
+      "index": 67,
+      "title": "A14　スコアと曲率をベクトル・行列にする",
+      "appendix": true
+    },
+    {
+      "id": "appendix-multi-score-expansion",
+      "index": 68,
+      "title": "A15　ベクトルのスコア方程式を展開する",
+      "appendix": true
+    },
+    {
+      "id": "appendix-multi-normal",
+      "index": 69,
+      "title": "A16　多母数の最尤推定量の漸近正規性",
+      "appendix": true
+    },
+    {
+      "id": "appendix-multi-taylor",
+      "index": 70,
+      "title": "A17　尤度比を二次形式で表す",
+      "appendix": true
+    },
+    {
+      "id": "appendix-multi-partition",
+      "index": 71,
+      "title": "A18　自由なk成分と固定するq成分を分ける",
+      "appendix": true
+    },
+    {
+      "id": "appendix-multi-square",
+      "index": 72,
+      "title": "A19　平方完成で自由な成分を取り除く",
+      "appendix": true
+    },
+    {
+      "id": "appendix-multi-covariance",
+      "index": 73,
+      "title": "A20　残るq成分の共分散を求める",
+      "appendix": true
+    },
+    {
+      "id": "appendix-multi-whitening",
+      "index": 74,
+      "title": "A21　標準化してq個の二乗和にする",
+      "appendix": true
+    },
+    {
+      "id": "appendix-multi-df-summary",
+      "index": 75,
+      "title": "A22　自由度がm−kになる理由",
+      "appendix": true
+    }
+  ],
+  "sourceTitleStyle": {
+    "article": "slide title-only theme-explain",
+    "font": "700 72px / 108px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+    "position": "center"
+  },
+  "layout": [
+    {
+      "title": "A12　多母数への拡張：前提と結論",
+      "id": "appendix-multi-null",
+      "clipping": [],
+      "math": [
+        {
+          "tex": "\n\\dim\\Theta=m,\\qquad\\dim\\Theta_0=k,\n\\qquad q:=m-k>0.\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 482.9034729003906,
+            "bottom": 538.9180908203125,
+            "width": 1455.64453125,
+            "height": 56.014617919921875
+          }
+        },
+        {
+          "tex": "\n\\theta_*\\in\\Theta_0,\\quad\\text{正則条件}\n\\quad\\Longrightarrow\\quad\n-2\\log\\Lambda\\xrightarrow{d}\\chi^2_q=\\chi^2_{m-k}.\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 674.6500244140625,
+            "bottom": 730.66455078125,
+            "width": 1455.64453125,
+            "height": 56.0145263671875
+          }
+        }
+      ],
+      "style": {
+        "article": "slide theme-proof",
+        "font": "700 32px / 40px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+        "position": "start"
+      },
+      "counter": "Appendix 12"
+    },
+    {
+      "title": "A13　帰無仮説の下でも動かせる母数",
+      "id": "appendix-multi-estimators",
+      "clipping": [],
+      "math": [
+        {
+          "tex": "\n\\theta=\\begin{pmatrix}\\eta\\\\\\psi\\end{pmatrix},\n\\quad\\eta\\in\\mathbb R^k,\\quad\\psi\\in\\mathbb R^q,\n\\qquad H_0:\\psi=\\psi_0.\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 417.14581298828125,
+            "bottom": 495.6492919921875,
+            "width": 1455.64453125,
+            "height": 78.50347900390625
+          }
+        },
+        {
+          "tex": "\n\\hat\\theta=\\begin{pmatrix}\\hat\\eta\\\\\\hat\\psi\\end{pmatrix}\n=\\underset{\\theta\\in\\Theta}{\\arg\\max}\\,\\ell(\\theta),\n\\qquad\n\\tilde\\theta=\\begin{pmatrix}\\tilde\\eta\\\\\\psi_0\\end{pmatrix},\n\\quad\\tilde\\eta=\\underset{\\eta}{\\arg\\max}\\,\\ell(\\eta,\\psi_0).\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 583.959716796875,
+            "bottom": 667.0152587890625,
+            "width": 1455.64453125,
+            "height": 83.0555419921875
+          }
+        },
+        {
+          "tex": "\n\\Lambda=\\frac{L(\\tilde\\theta\\mid\\boldsymbol X)}{L(\\hat\\theta\\mid\\boldsymbol X)},\n\\qquad -2\\log\\Lambda=2\\{\\ell(\\hat\\theta)-\\ell(\\tilde\\theta)\\}.\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 707.9041748046875,
+            "bottom": 796.4222412109375,
+            "width": 1455.64453125,
+            "height": 88.51806640625
+          }
+        }
+      ],
+      "style": {
+        "article": "slide theme-proof",
+        "font": "700 32px / 40px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+        "position": "start"
+      },
+      "counter": "Appendix 13"
+    },
+    {
+      "title": "A14　スコアと曲率をベクトル・行列にする",
+      "id": "appendix-multi-information",
+      "clipping": [],
+      "math": [
+        {
+          "tex": "\nU_n(\\theta):=\\nabla\\ell(\\theta),\n\\qquad H_n(\\theta):=\\nabla^2\\ell(\\theta).\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 482.9034729003906,
+            "bottom": 538.9180908203125,
+            "width": 1455.64453125,
+            "height": 56.014617919921875
+          }
+        },
+        {
+          "tex": "\nE_{\\theta_*}[s_i(\\theta_*)]=\\boldsymbol0,\n\\qquad\n\\mathcal I:=\\operatorname{Cov}_{\\theta_*}[s_i(\\theta_*)]\n=-E_{\\theta_*}[\\nabla^2\\log f(X_i\\mid\\theta_*)].\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 627.228515625,
+            "bottom": 683.2430419921875,
+            "width": 1455.64453125,
+            "height": 56.0145263671875
+          }
+        }
+      ],
+      "style": {
+        "article": "slide theme-proof",
+        "font": "700 32px / 40px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+        "position": "start"
+      },
+      "counter": "Appendix 14"
+    },
+    {
+      "title": "A15　ベクトルのスコア方程式を展開する",
+      "id": "appendix-multi-score-expansion",
+      "clipping": [],
+      "math": [
+        {
+          "tex": "\n\\boldsymbol0=U_n(\\theta_*)+\n\\left[\\int_0^1H_n\\!\\left(\\theta_*+t(\\hat\\theta-\\theta_*)\\right)dt\\right]\n(\\hat\\theta-\\theta_*).\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 422.0333251953125,
+            "bottom": 504.2583312988281,
+            "width": 1455.64453125,
+            "height": 82.22500610351562
+          }
+        },
+        {
+          "tex": "\nM_n:=-\\frac1n\\int_0^1H_n\\!\\left(\\theta_*+t(\\hat\\theta-\\theta_*)\\right)dt.\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 592.5687255859375,
+            "bottom": 673.5479736328125,
+            "width": 1455.64453125,
+            "height": 80.979248046875
+          }
+        },
+        {
+          "tex": "\n\\boldsymbol0=U_n(\\theta_*)-nM_n(\\hat\\theta-\\theta_*)\n\\quad\\Longrightarrow\\quad\n\\sqrt n(\\hat\\theta-\\theta_*)=M_n^{-1}\\frac{U_n(\\theta_*)}{\\sqrt n}.\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 714.436767578125,
+            "bottom": 791.5347900390625,
+            "width": 1455.64453125,
+            "height": 77.0980224609375
+          }
+        }
+      ],
+      "style": {
+        "article": "slide theme-proof",
+        "font": "700 32px / 40px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+        "position": "start"
+      },
+      "counter": "Appendix 15"
+    },
+    {
+      "title": "A16　多母数の最尤推定量の漸近正規性",
+      "id": "appendix-multi-normal",
+      "clipping": [],
+      "math": [
+        {
+          "tex": "\n\\frac{U_n(\\theta_*)}{\\sqrt n}\\xrightarrow{d}Z,\n\\quad Z\\sim N_m(\\boldsymbol0,\\mathcal I),\n\\qquad M_n\\xrightarrow{p}\\mathcal I.\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 472.3617858886719,
+            "bottom": 549.459716796875,
+            "width": 1455.64453125,
+            "height": 77.09793090820312
+          }
+        },
+        {
+          "tex": "\n\\sqrt n(\\hat\\theta-\\theta_*)\n\\xrightarrow{d}\\mathcal I^{-1}Z\n\\sim N_m(\\boldsymbol0,\\mathcal I^{-1}).\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 637.7701416015625,
+            "bottom": 693.78466796875,
+            "width": 1455.64453125,
+            "height": 56.0145263671875
+          }
+        }
+      ],
+      "style": {
+        "article": "slide theme-proof",
+        "font": "700 32px / 40px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+        "position": "start"
+      },
+      "counter": "Appendix 16"
+    },
+    {
+      "title": "A17　尤度比を二次形式で表す",
+      "id": "appendix-multi-taylor",
+      "clipping": [],
+      "math": [
+        {
+          "tex": "\n\\ell(\\tilde\\theta)=\\ell(\\hat\\theta)\n+\\frac12(\\tilde\\theta-\\hat\\theta)^\\top\nH_n(\\hat\\theta)(\\tilde\\theta-\\hat\\theta)+o_p(1).\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 478.0798645019531,
+            "bottom": 543.74169921875,
+            "width": 1455.64453125,
+            "height": 65.66183471679688
+          }
+        },
+        {
+          "tex": "\n-2\\log\\Lambda\n=n(\\tilde\\theta-\\hat\\theta)^\\top\\mathcal I\n(\\tilde\\theta-\\hat\\theta)+o_p(1).\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 632.0521240234375,
+            "bottom": 688.066650390625,
+            "width": 1455.64453125,
+            "height": 56.0145263671875
+          }
+        }
+      ],
+      "style": {
+        "article": "slide theme-proof",
+        "font": "700 32px / 40px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+        "position": "start"
+      },
+      "counter": "Appendix 17"
+    },
+    {
+      "title": "A18　自由なk成分と固定するq成分を分ける",
+      "id": "appendix-multi-partition",
+      "clipping": [],
+      "math": [
+        {
+          "tex": "\n\\mathcal I=\\begin{pmatrix}A&B\\\\B^\\top&C\\end{pmatrix},\n\\qquad A\\in\\mathbb R^{k\\times k},\\quad\nB\\in\\mathbb R^{k\\times q},\\quad C\\in\\mathbb R^{q\\times q}.\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 456.3576354980469,
+            "bottom": 535.16455078125,
+            "width": 1455.64453125,
+            "height": 78.80691528320312
+          }
+        },
+        {
+          "tex": "\nQ(d):=\\begin{pmatrix}d\\\\-\\delta\\end{pmatrix}^{\\!\\top}\n\\mathcal I\\begin{pmatrix}d\\\\-\\delta\\end{pmatrix}\n=d^\\top A d-2d^\\top B\\delta+\\delta^\\top C\\delta.\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 623.4749755859375,
+            "bottom": 709.7889404296875,
+            "width": 1455.64453125,
+            "height": 86.31396484375
+          }
+        }
+      ],
+      "style": {
+        "article": "slide theme-proof",
+        "font": "700 32px / 40px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+        "position": "start"
+      },
+      "counter": "Appendix 18"
+    },
+    {
+      "title": "A19　平方完成で自由な成分を取り除く",
+      "id": "appendix-multi-square",
+      "clipping": [],
+      "math": [
+        {
+          "tex": "\n\\begin{aligned}\nQ(d)&=(d-A^{-1}B\\delta)^\\top A(d-A^{-1}B\\delta)\n+\\delta^\\top J\\delta,\\\\[4pt]\nJ&:=C-B^\\top A^{-1}B.\n\\end{aligned}\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 450.6875,
+            "bottom": 565.767333984375,
+            "width": 1455.64453125,
+            "height": 115.079833984375
+          }
+        },
+        {
+          "tex": "\n\\min_d Q(d)=\\delta^\\top J\\delta\n\\quad\\Longrightarrow\\quad\n-2\\log\\Lambda=n\\delta^\\top J\\delta+o_p(1).\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 654.0777587890625,
+            "bottom": 715.4749755859375,
+            "width": 1455.64453125,
+            "height": 61.397216796875
+          }
+        }
+      ],
+      "style": {
+        "article": "slide theme-proof",
+        "font": "700 32px / 40px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+        "position": "start"
+      },
+      "counter": "Appendix 19"
+    },
+    {
+      "title": "A20　残るq成分の共分散を求める",
+      "id": "appendix-multi-covariance",
+      "clipping": [],
+      "math": [
+        {
+          "tex": "\n\\left.\\begin{aligned}\nAu+Bv&=\\boldsymbol0,\\\\\nB^\\top u+Cv&=w\n\\end{aligned}\\right\\}\n\\quad\\Longrightarrow\\quad\nu=-A^{-1}Bv,\\qquad Jv=w.\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 412.43402099609375,
+            "bottom": 512.5,
+            "width": 1455.64453125,
+            "height": 100.06597900390625
+          }
+        },
+        {
+          "tex": "\n\\bigl(\\mathcal I^{-1}\\bigr)_{\\psi\\psi}\n=(C-B^\\top A^{-1}B)^{-1}=J^{-1}.\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 600.8104248046875,
+            "bottom": 656.824951171875,
+            "width": 1455.64453125,
+            "height": 56.0145263671875
+          }
+        },
+        {
+          "tex": "\n\\sqrt n\\,\\delta=\\sqrt n(\\hat\\psi-\\psi_0)\n\\xrightarrow{d}N_q(\\boldsymbol0,J^{-1}).\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 745.1353759765625,
+            "bottom": 801.1500244140625,
+            "width": 1455.64453125,
+            "height": 56.0146484375
+          }
+        }
+      ],
+      "style": {
+        "article": "slide theme-proof",
+        "font": "700 32px / 40px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+        "position": "start"
+      },
+      "counter": "Appendix 20"
+    },
+    {
+      "title": "A21　標準化してq個の二乗和にする",
+      "id": "appendix-multi-whitening",
+      "clipping": [],
+      "math": [
+        {
+          "tex": "\nZ_n:=\\sqrt n\\,J^{1/2}\\delta\n\\xrightarrow{d}Z\\sim N_q(\\boldsymbol0,\\mathbf I_q).\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 460.0152587890625,
+            "bottom": 516.0298461914062,
+            "width": 1455.64453125,
+            "height": 56.01458740234375
+          }
+        },
+        {
+          "tex": "\n-2\\log\\Lambda=Z_n^\\top Z_n+o_p(1)\n\\quad\\Longrightarrow\\quad\n-2\\log\\Lambda\\xrightarrow{d}\n\\sum_{j=1}^{q}Z_j^2\\sim\\chi^2_q.\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 604.34033203125,
+            "bottom": 706.1312255859375,
+            "width": 1455.64453125,
+            "height": 101.7908935546875
+          }
+        }
+      ],
+      "style": {
+        "article": "slide theme-proof",
+        "font": "700 32px / 40px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+        "position": "start"
+      },
+      "counter": "Appendix 21"
+    },
+    {
+      "title": "A22　自由度がm−kになる理由",
+      "id": "appendix-multi-df-summary",
+      "clipping": [],
+      "math": [
+        {
+          "tex": "\n\\underbrace{m}_{\\text{全母数の次元}}\n-\\underbrace{k}_{\\text{帰無モデルの次元}}\n=\\underbrace{q}_{\\text{帰無仮説が固定する成分数}}\n=\\text{自由度}.\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 470.3013916015625,
+            "bottom": 556.8388671875,
+            "width": 1455.64453125,
+            "height": 86.5374755859375
+          }
+        },
+        {
+          "tex": "\n\\left.\n\\begin{gathered}\n\\theta_*\\in\\Theta_0,\\quad\\text{正則条件},\\\\\n\\dim\\Theta=m,\\quad\\dim\\Theta_0=k\n\\end{gathered}\n\\right\\}\n\\quad\\Longrightarrow\\quad -2\\log\\Lambda\\xrightarrow{d}\\chi^2_{m-k}.\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 645.1492919921875,
+            "bottom": 743.2825927734375,
+            "width": 1455.64453125,
+            "height": 98.13330078125
+          }
+        }
+      ],
+      "style": {
+        "article": "slide theme-proof",
+        "font": "700 32px / 40px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+        "position": "start"
+      },
+      "counter": "Appendix 22"
+    }
+  ],
+  "navigation": {
+    "nextEnabled": true,
+    "afterMain": "Appendix",
+    "afterCover": "A1　対数尤度・最尤推定量と前提",
+    "backToMain": true,
+    "nextDisabled": true,
+    "appendixInOutline": true
+  },
+  "runtimeErrors": []
+}

@@ -1,0 +1,20 @@
+const{chromium}=require('C:/Users/User/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const{pathToFileURL}=require('url');const assert=require('assert/strict');
+(async()=>{
+ const b=await chromium.launch({headless:true,executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'});
+ const p=await b.newPage(),errors=[];p.on('pageerror',e=>errors.push(e.message));
+ await p.goto(pathToFileURL(process.argv[2]).href+'#46');await p.evaluate(()=>document.fonts.ready);
+ assert.deepEqual(await p.evaluate(()=>({count:deck.slides.length,slider:Number(document.getElementById('slide-seek').max)})),{count:85,slider:85});
+ assert.deepEqual(await p.evaluate(()=>mathErrors()),[]);
+ const img=p.locator('#stage .corr-density-figure img');
+ assert(await img.evaluate(e=>e.complete&&e.naturalWidth>1000));
+ await p.evaluate(()=>go(46));assert.equal(await p.locator('#stage article').getAttribute('data-slide-id'),'correlation-t-density-proof');
+ await p.evaluate(()=>go(47));assert.equal(await p.locator('#stage article').getAttribute('data-slide-id'),'corr-null');
+ const saved=await p.evaluate(()=>buildSavedHTML());
+ const d=JSON.parse(saved.match(/<script id="deck-data" type="application\/json">([\s\S]*?)<\/script>/)[1]);
+ assert.equal(d.slides.length,85);assert(d.slides[45].rightHTML.includes('data:image/png;base64,'));
+ assert.equal(d.slides[46].id,'correlation-t-density-proof');assert.equal(d.slides[48].id,'fisher-z-introduction');
+ assert(d.slides[46].notes.length>100);assert.deepEqual(errors,[]);
+ console.log(JSON.stringify({slides:85,embeddedFigureLoads:true,proofBeforeTest:true,fisherIntroPreserved:true,savedHtmlRetainsChanges:true,pageSliderSynced:true,allLatexValid:true,errors}));
+ await b.close();
+})();

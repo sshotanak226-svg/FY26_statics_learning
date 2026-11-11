@@ -1,0 +1,14 @@
+{
+  "all84Slides": true,
+  "keyboard": true,
+  "pointerDragging": true,
+  "buttonsAndHashSync": true,
+  "appendix": true,
+  "presenterSync": true,
+  "pageCountAfterEditing": true,
+  "savedHtmlRetainsSlider": true,
+  "responsive": true,
+  "hiddenWhenPrinting": true,
+  "mathErrors": [],
+  "errors": []
+}

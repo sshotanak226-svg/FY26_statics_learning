@@ -1,0 +1,19 @@
+{
+  "browserAutosave": true,
+  "automaticRestore": true,
+  "immediateReload": true,
+  "structuralEdits": true,
+  "htmlFileAutosave": true,
+  "savedFileHasFeature": true,
+  "connectionRestored": true,
+  "fileFailureStatus": true,
+  "storageFailureStatus": true,
+  "legacyDraftRestore": true,
+  "corruptDraftHandled": true,
+  "slideMathErrors": [],
+  "runtimeErrors": [],
+  "opfs": {
+    "query": "function",
+    "request": "function"
+  }
+}

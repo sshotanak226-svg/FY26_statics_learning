@@ -1,0 +1,5 @@
+const{chromium}=require('C:/Users/User/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const{pathToFileURL}=require('url');const fs=require('fs');
+(async()=>{const b=await chromium.launch({headless:true,executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'});const p=await b.newPage({viewport:{width:1720,height:1060}});fs.mkdirSync('tmp/wald-comparison',{recursive:true});
+await p.goto(pathToFileURL('F:/Download/９章　仮説検定と信頼区間_編集済み (2).html').href+'#33');await p.evaluate(()=>document.fonts.ready);await p.locator('#stage').screenshot({path:'tmp/wald-comparison/source33.png'});
+await p.goto(pathToFileURL('F:/Document/Fy26 TDH statics lean/output/９章_仮説検定と信頼区間_ワルド利点欠点比較.html').href+'#33');await p.evaluate(()=>document.fonts.ready);await p.locator('#stage').screenshot({path:'tmp/wald-comparison/new33.png'});console.log(JSON.stringify({mathErrors:await p.evaluate(()=>mathErrors()),count:await p.evaluate(()=>deck.slides.length)},null,2));await b.close()})();

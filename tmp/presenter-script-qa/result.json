@@ -1,0 +1,17 @@
+{
+  "existingNotesEditable": true,
+  "livePresenterSync": true,
+  "markdownAndMath": true,
+  "audienceSlideUnchanged": true,
+  "editFromPresenter": true,
+  "fontSize": true,
+  "scrollPreservedDuringTimer": true,
+  "slideNavigation": true,
+  "emptyScript": true,
+  "undo": true,
+  "browserAutosaveRestore": true,
+  "htmlExport": true,
+  "legacyImport": true,
+  "newAndDuplicatedSlides": true,
+  "errors": []
+}

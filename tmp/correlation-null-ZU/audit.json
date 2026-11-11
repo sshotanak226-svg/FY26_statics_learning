@@ -1,0 +1,30 @@
+{
+  "file": "F:\\Document\\Fy26 TDH statics lean\\output\\９章_仮説検定と信頼区間_相関ZUの帰無分布導出.html",
+  "report": [
+    {
+      "page": 49,
+      "id": "correlation-t-density-proof",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 50,
+      "id": "correlation-null-ZU-derivation",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 51,
+      "id": "correlation-nonnormal-large-sample",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 52,
+      "id": "corr-null",
+      "issues": [],
+      "mathErrors": []
+    }
+  ],
+  "errors": []
+}

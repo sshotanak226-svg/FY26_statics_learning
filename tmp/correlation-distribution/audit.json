@@ -1,0 +1,42 @@
+{
+  "file": "F:/Document/Fy26 TDH statics lean/output/９章_仮説検定と信頼区間_標本相関の分布とt検定.html",
+  "report": [
+    {
+      "page": 45,
+      "id": "intro-9.7",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 46,
+      "id": "correlation-definition",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 47,
+      "id": "correlation-t-density-proof",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 48,
+      "id": "corr-null",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 49,
+      "id": "fisher-z-introduction",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 50,
+      "id": "fisher-z",
+      "issues": [],
+      "mathErrors": []
+    }
+  ],
+  "errors": []
+}

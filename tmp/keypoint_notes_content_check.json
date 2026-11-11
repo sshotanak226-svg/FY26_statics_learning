@@ -1,0 +1,618 @@
+[
+  {
+    "page": 1,
+    "id": "chapter",
+    "points": 3,
+    "characters": 124,
+    "maxPointCharacters": 47
+  },
+  {
+    "page": 2,
+    "id": "opening-review-t-f",
+    "points": 4,
+    "characters": 241,
+    "maxPointCharacters": 86
+  },
+  {
+    "page": 3,
+    "id": "opening-review-regularity-information",
+    "points": 4,
+    "characters": 253,
+    "maxPointCharacters": 81
+  },
+  {
+    "page": 4,
+    "id": "agenda",
+    "points": 3,
+    "characters": 117,
+    "maxPointCharacters": 42
+  },
+  {
+    "page": 5,
+    "id": "intro-9.1",
+    "points": 3,
+    "characters": 125,
+    "maxPointCharacters": 43
+  },
+  {
+    "page": 6,
+    "id": "test-design",
+    "points": 4,
+    "characters": 148,
+    "maxPointCharacters": 42
+  },
+  {
+    "page": 7,
+    "id": "coin-model",
+    "points": 4,
+    "characters": 205,
+    "maxPointCharacters": 61
+  },
+  {
+    "page": 8,
+    "id": "intro-9.2",
+    "points": 4,
+    "characters": 148,
+    "maxPointCharacters": 38
+  },
+  {
+    "page": 9,
+    "id": "hypothesis-design",
+    "points": 4,
+    "characters": 196,
+    "maxPointCharacters": 85
+  },
+  {
+    "page": 10,
+    "id": "test-rule",
+    "points": 4,
+    "characters": 180,
+    "maxPointCharacters": 54
+  },
+  {
+    "page": 11,
+    "id": "errors-power",
+    "points": 4,
+    "characters": 187,
+    "maxPointCharacters": 59
+  },
+  {
+    "page": 12,
+    "id": "slide-1791097900354-estok",
+    "points": 4,
+    "characters": 211,
+    "maxPointCharacters": 61
+  },
+  {
+    "page": 13,
+    "id": "p-value",
+    "points": 4,
+    "characters": 194,
+    "maxPointCharacters": 71
+  },
+  {
+    "page": 14,
+    "id": "intro-9.3",
+    "points": 4,
+    "characters": 167,
+    "maxPointCharacters": 49
+  },
+  {
+    "page": 15,
+    "id": "np",
+    "points": 4,
+    "characters": 165,
+    "maxPointCharacters": 48
+  },
+  {
+    "page": 16,
+    "id": "np-proof",
+    "points": 4,
+    "characters": 211,
+    "maxPointCharacters": 66
+  },
+  {
+    "page": 17,
+    "id": "np-proof-integral",
+    "points": 4,
+    "characters": 187,
+    "maxPointCharacters": 54
+  },
+  {
+    "page": 18,
+    "id": "ump-proposition",
+    "points": 4,
+    "characters": 200,
+    "maxPointCharacters": 66
+  },
+  {
+    "page": 19,
+    "id": "ump-general",
+    "points": 4,
+    "characters": 177,
+    "maxPointCharacters": 50
+  },
+  {
+    "page": 20,
+    "id": "normal-ump-proposition",
+    "points": 4,
+    "characters": 218,
+    "maxPointCharacters": 64
+  },
+  {
+    "page": 21,
+    "id": "ump-proof",
+    "points": 4,
+    "characters": 197,
+    "maxPointCharacters": 54
+  },
+  {
+    "page": 22,
+    "id": "general-lr",
+    "points": 4,
+    "characters": 206,
+    "maxPointCharacters": 62
+  },
+  {
+    "page": 23,
+    "id": "wilks",
+    "points": 4,
+    "characters": 187,
+    "maxPointCharacters": 50
+  },
+  {
+    "page": 24,
+    "id": "wilks-proof-one",
+    "points": 4,
+    "characters": 209,
+    "maxPointCharacters": 53
+  },
+  {
+    "page": 25,
+    "id": "slide-1791897820648-9nfwe",
+    "points": 4,
+    "characters": 231,
+    "maxPointCharacters": 66
+  },
+  {
+    "page": 26,
+    "id": "wilks-proof-limit",
+    "points": 4,
+    "characters": 218,
+    "maxPointCharacters": 58
+  },
+  {
+    "page": 27,
+    "id": "normal-lr",
+    "points": 4,
+    "characters": 230,
+    "maxPointCharacters": 69
+  },
+  {
+    "page": 28,
+    "id": "intro-9.4",
+    "points": 4,
+    "characters": 147,
+    "maxPointCharacters": 47
+  },
+  {
+    "page": 29,
+    "id": "pooled",
+    "points": 5,
+    "characters": 252,
+    "maxPointCharacters": 65
+  },
+  {
+    "page": 30,
+    "id": "pooled-loglr",
+    "points": 4,
+    "characters": 220,
+    "maxPointCharacters": 65
+  },
+  {
+    "page": 31,
+    "id": "pooled-exact-t",
+    "points": 4,
+    "characters": 219,
+    "maxPointCharacters": 74
+  },
+  {
+    "page": 32,
+    "id": "welch",
+    "points": 5,
+    "characters": 224,
+    "maxPointCharacters": 53
+  },
+  {
+    "page": 33,
+    "id": "variance-test",
+    "points": 5,
+    "characters": 211,
+    "maxPointCharacters": 49
+  },
+  {
+    "page": 34,
+    "id": "paired-t",
+    "points": 4,
+    "characters": 201,
+    "maxPointCharacters": 54
+  },
+  {
+    "page": 35,
+    "id": "intro-9.5",
+    "points": 5,
+    "characters": 246,
+    "maxPointCharacters": 53
+  },
+  {
+    "page": 36,
+    "id": "wald",
+    "points": 4,
+    "characters": 233,
+    "maxPointCharacters": 73
+  },
+  {
+    "page": 37,
+    "id": "bernoulli-wald",
+    "points": 5,
+    "characters": 292,
+    "maxPointCharacters": 98
+  },
+  {
+    "page": 38,
+    "id": "nonparam-mean",
+    "points": 4,
+    "characters": 172,
+    "maxPointCharacters": 48
+  },
+  {
+    "page": 39,
+    "id": "paired-binary",
+    "points": 4,
+    "characters": 199,
+    "maxPointCharacters": 62
+  },
+  {
+    "page": 40,
+    "id": "intro-9.6",
+    "points": 5,
+    "characters": 261,
+    "maxPointCharacters": 67
+  },
+  {
+    "page": 41,
+    "id": "ci-coverage-proposition",
+    "points": 4,
+    "characters": 274,
+    "maxPointCharacters": 98
+  },
+  {
+    "page": 42,
+    "id": "ci-proof",
+    "points": 4,
+    "characters": 195,
+    "maxPointCharacters": 62
+  },
+  {
+    "page": 43,
+    "id": "example-9-9-ci-summary",
+    "points": 4,
+    "characters": 196,
+    "maxPointCharacters": 57
+  },
+  {
+    "page": 44,
+    "id": "example-9-10-bernoulli-ci",
+    "points": 4,
+    "characters": 227,
+    "maxPointCharacters": 62
+  },
+  {
+    "page": 45,
+    "id": "paired-ci",
+    "points": 4,
+    "characters": 184,
+    "maxPointCharacters": 53
+  },
+  {
+    "page": 46,
+    "id": "sample-size",
+    "points": 5,
+    "characters": 272,
+    "maxPointCharacters": 62
+  },
+  {
+    "page": 47,
+    "id": "intro-9.7",
+    "points": 4,
+    "characters": 169,
+    "maxPointCharacters": 45
+  },
+  {
+    "page": 48,
+    "id": "correlation-definition",
+    "points": 4,
+    "characters": 186,
+    "maxPointCharacters": 55
+  },
+  {
+    "page": 49,
+    "id": "correlation-t-density-proof",
+    "points": 5,
+    "characters": 310,
+    "maxPointCharacters": 71
+  },
+  {
+    "page": 50,
+    "id": "correlation-nonnormal-large-sample",
+    "points": 5,
+    "characters": 260,
+    "maxPointCharacters": 57
+  },
+  {
+    "page": 51,
+    "id": "corr-null",
+    "points": 4,
+    "characters": 232,
+    "maxPointCharacters": 72
+  },
+  {
+    "page": 52,
+    "id": "fisher-z-introduction",
+    "points": 4,
+    "characters": 235,
+    "maxPointCharacters": 64
+  },
+  {
+    "page": 53,
+    "id": "fisher-z",
+    "points": 4,
+    "characters": 198,
+    "maxPointCharacters": 55
+  },
+  {
+    "page": 54,
+    "id": "correlation-test",
+    "points": 4,
+    "characters": 195,
+    "maxPointCharacters": 64
+  },
+  {
+    "page": 55,
+    "id": "correlation-ci",
+    "points": 4,
+    "characters": 196,
+    "maxPointCharacters": 55
+  },
+  {
+    "page": 56,
+    "id": "appendix-title",
+    "points": 3,
+    "characters": 140,
+    "maxPointCharacters": 54
+  },
+  {
+    "page": 57,
+    "id": "appendix-mle-setting",
+    "points": 4,
+    "characters": 205,
+    "maxPointCharacters": 56
+  },
+  {
+    "page": 58,
+    "id": "appendix-fisher-identity",
+    "points": 4,
+    "characters": 170,
+    "maxPointCharacters": 45
+  },
+  {
+    "page": 59,
+    "id": "appendix-curvature-lln",
+    "points": 4,
+    "characters": 194,
+    "maxPointCharacters": 58
+  },
+  {
+    "page": 60,
+    "id": "appendix-curvature-random",
+    "points": 4,
+    "characters": 241,
+    "maxPointCharacters": 78
+  },
+  {
+    "page": 61,
+    "id": "appendix-score-clt",
+    "points": 4,
+    "characters": 184,
+    "maxPointCharacters": 60
+  },
+  {
+    "page": 62,
+    "id": "appendix-score-mvt",
+    "points": 4,
+    "characters": 231,
+    "maxPointCharacters": 73
+  },
+  {
+    "page": 63,
+    "id": "appendix-score-algebra",
+    "points": 4,
+    "characters": 185,
+    "maxPointCharacters": 83
+  },
+  {
+    "page": 64,
+    "id": "appendix-mle-slutsky",
+    "points": 4,
+    "characters": 270,
+    "maxPointCharacters": 76
+  },
+  {
+    "page": 65,
+    "id": "appendix-taylor-close",
+    "points": 4,
+    "characters": 216,
+    "maxPointCharacters": 61
+  },
+  {
+    "page": 66,
+    "id": "appendix-taylor-remainder",
+    "points": 4,
+    "characters": 183,
+    "maxPointCharacters": 57
+  },
+  {
+    "page": 67,
+    "id": "appendix-wilks-connection",
+    "points": 4,
+    "characters": 192,
+    "maxPointCharacters": 59
+  },
+  {
+    "page": 68,
+    "id": "appendix-multi-null",
+    "points": 4,
+    "characters": 230,
+    "maxPointCharacters": 69
+  },
+  {
+    "page": 69,
+    "id": "appendix-multi-estimators",
+    "points": 4,
+    "characters": 219,
+    "maxPointCharacters": 64
+  },
+  {
+    "page": 70,
+    "id": "appendix-multi-information",
+    "points": 4,
+    "characters": 198,
+    "maxPointCharacters": 55
+  },
+  {
+    "page": 71,
+    "id": "appendix-multi-score-expansion",
+    "points": 4,
+    "characters": 202,
+    "maxPointCharacters": 69
+  },
+  {
+    "page": 72,
+    "id": "appendix-multi-normal",
+    "points": 4,
+    "characters": 224,
+    "maxPointCharacters": 81
+  },
+  {
+    "page": 73,
+    "id": "appendix-multi-taylor",
+    "points": 4,
+    "characters": 170,
+    "maxPointCharacters": 46
+  },
+  {
+    "page": 74,
+    "id": "appendix-multi-partition",
+    "points": 4,
+    "characters": 263,
+    "maxPointCharacters": 80
+  },
+  {
+    "page": 75,
+    "id": "appendix-multi-square",
+    "points": 4,
+    "characters": 224,
+    "maxPointCharacters": 62
+  },
+  {
+    "page": 76,
+    "id": "appendix-multi-covariance",
+    "points": 4,
+    "characters": 210,
+    "maxPointCharacters": 63
+  },
+  {
+    "page": 77,
+    "id": "appendix-multi-whitening",
+    "points": 4,
+    "characters": 184,
+    "maxPointCharacters": 52
+  },
+  {
+    "page": 78,
+    "id": "appendix-multi-df-summary",
+    "points": 4,
+    "characters": 172,
+    "maxPointCharacters": 61
+  },
+  {
+    "page": 79,
+    "id": "normal-t-lr",
+    "points": 5,
+    "characters": 273,
+    "maxPointCharacters": 66
+  },
+  {
+    "page": 80,
+    "id": "normal-t-lr-transform",
+    "points": 4,
+    "characters": 239,
+    "maxPointCharacters": 74
+  },
+  {
+    "page": 81,
+    "id": "normal-t-rejection-equivalence",
+    "points": 4,
+    "characters": 176,
+    "maxPointCharacters": 50
+  },
+  {
+    "page": 82,
+    "id": "normal-t-null-distribution",
+    "points": 4,
+    "characters": 193,
+    "maxPointCharacters": 57
+  },
+  {
+    "page": 83,
+    "id": "normal-t",
+    "points": 4,
+    "characters": 200,
+    "maxPointCharacters": 64
+  },
+  {
+    "page": 84,
+    "id": "two-design",
+    "points": 4,
+    "characters": 167,
+    "maxPointCharacters": 48
+  },
+  {
+    "page": 85,
+    "id": "slide-1791902681892-1f12n",
+    "points": 5,
+    "characters": 224,
+    "maxPointCharacters": 55
+  },
+  {
+    "page": 86,
+    "id": "variance-test-likelihood",
+    "points": 5,
+    "characters": 247,
+    "maxPointCharacters": 54
+  },
+  {
+    "page": 87,
+    "id": "known-ci",
+    "points": 4,
+    "characters": 219,
+    "maxPointCharacters": 74
+  },
+  {
+    "page": 88,
+    "id": "unknown-ci",
+    "points": 4,
+    "characters": 213,
+    "maxPointCharacters": 71
+  }
+]

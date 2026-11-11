@@ -1,0 +1,41 @@
+{
+  "checks": [
+    {
+      "id": "pooled",
+      "content": {
+        "top": 197.1874927230508,
+        "height": 623.2187670355246
+      },
+      "bad": [],
+      "mathErrors": []
+    },
+    {
+      "id": "pooled-loglr",
+      "content": {
+        "top": 197.1874927230508,
+        "height": 623.2187670355246
+      },
+      "bad": [],
+      "mathErrors": []
+    },
+    {
+      "id": "pooled-exact-t",
+      "content": {
+        "top": 197.1874927230508,
+        "height": 623.2187670355246
+      },
+      "bad": [],
+      "mathErrors": []
+    },
+    {
+      "id": "welch",
+      "content": {
+        "top": 197.1874927230508,
+        "height": 623.2187670355246
+      },
+      "bad": [],
+      "mathErrors": []
+    }
+  ],
+  "errors": []
+}

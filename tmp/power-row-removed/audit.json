@@ -1,0 +1,30 @@
+{
+  "file": "F:\\Document\\Fy26 TDH statics lean\\output\\９章_仮説検定と信頼区間_ページスライダー_検出力行削除.html",
+  "report": [
+    {
+      "page": 32,
+      "id": "paired-t",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 33,
+      "id": "intro-9.5",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 34,
+      "id": "wald",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 35,
+      "id": "bernoulli-wald",
+      "issues": [],
+      "mathErrors": []
+    }
+  ],
+  "errors": []
+}

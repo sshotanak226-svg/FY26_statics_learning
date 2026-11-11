@@ -1,0 +1,843 @@
+{
+  "count": 65,
+  "mainCount": 53,
+  "mathErrors": [],
+  "pages": [
+    {
+      "id": "chapter",
+      "index": 0,
+      "title": "９章　仮説検定と信頼区間",
+      "appendix": false
+    },
+    {
+      "id": "agenda",
+      "index": 1,
+      "title": "スライド項目：アジェンダ",
+      "appendix": false
+    },
+    {
+      "id": "intro-9.1",
+      "index": 2,
+      "title": "9.1　概要：仮説検定とは",
+      "appendix": false
+    },
+    {
+      "id": "test-design",
+      "index": 3,
+      "title": "9.1.1　観測の確率と誤った判断",
+      "appendix": false
+    },
+    {
+      "id": "coin-model",
+      "index": 4,
+      "title": "9.1.2　コインの二つの仮説",
+      "appendix": false
+    },
+    {
+      "id": "intro-9.2",
+      "index": 5,
+      "title": "9.2　概要：統計的仮説検定の考え方",
+      "appendix": false
+    },
+    {
+      "id": "hypothesis-design",
+      "index": 6,
+      "title": "9.2.1　単純仮説と複合仮説",
+      "appendix": false
+    },
+    {
+      "id": "test-rule",
+      "index": 7,
+      "title": "9.2.1　検定統計量と棄却域",
+      "appendix": false
+    },
+    {
+      "id": "errors-power",
+      "index": 8,
+      "title": "9.2.2　有意水準と検出力",
+      "appendix": false
+    },
+    {
+      "id": "slide-1791097900354-estok",
+      "index": 9,
+      "title": "9.2.2　$P(・｜H_0),P(・｜H_1)$の書き方について",
+      "appendix": false
+    },
+    {
+      "id": "p-value",
+      "index": 10,
+      "title": "9.2.2　資料のp値の定義",
+      "appendix": false
+    },
+    {
+      "id": "intro-9.3",
+      "index": 11,
+      "title": "9.3　概要：尤度比検定",
+      "appendix": false
+    },
+    {
+      "id": "np",
+      "index": 12,
+      "title": "9.3.1　補題9.1：ネイマン–ピアソンの補題",
+      "appendix": false
+    },
+    {
+      "id": "np-proof",
+      "index": 13,
+      "title": "9.3.1　補題9.1の証明①：差を積分する",
+      "appendix": false
+    },
+    {
+      "id": "np-proof-integral",
+      "index": 14,
+      "title": "9.3.1　補題9.1の証明②：符号から結論へ",
+      "appendix": false
+    },
+    {
+      "id": "ump-proposition",
+      "index": 15,
+      "title": "9.3.1　補題9.2：一様最強力性の命題",
+      "appendix": false
+    },
+    {
+      "id": "ump-general",
+      "index": 16,
+      "title": "9.3.1　補題9.2：一様最強力性の証明",
+      "appendix": false
+    },
+    {
+      "id": "normal-ump-proposition",
+      "index": 17,
+      "title": "9.3.1　正規平均の一様最強力性の命題",
+      "appendix": false
+    },
+    {
+      "id": "ump-proof",
+      "index": 18,
+      "title": "9.3.1　正規平均の一様最強力性",
+      "appendix": false
+    },
+    {
+      "id": "general-lr",
+      "index": 19,
+      "title": "9.3.2　一般の尤度比検定",
+      "appendix": false
+    },
+    {
+      "id": "wilks",
+      "index": 20,
+      "title": "9.3.2　定理9.3：尤度比の漸近分布の命題",
+      "appendix": false
+    },
+    {
+      "id": "wilks-proof-one",
+      "index": 21,
+      "title": "9.3.2　定理9.3の証明①：二次展開",
+      "appendix": false
+    },
+    {
+      "id": "wilks-proof-limit",
+      "index": 22,
+      "title": "9.3.2　定理9.3の証明②：極限を組み合わせる",
+      "appendix": false
+    },
+    {
+      "id": "normal-lr",
+      "index": 23,
+      "title": "9.3.2　例9.4：既知分散の正規平均",
+      "appendix": false
+    },
+    {
+      "id": "normal-t-lr",
+      "index": 24,
+      "title": "9.3.2　例9.5：未知分散の尤度比",
+      "appendix": false
+    },
+    {
+      "id": "normal-t",
+      "index": 25,
+      "title": "9.3.2　例9.5：t分布による検定",
+      "appendix": false
+    },
+    {
+      "id": "intro-9.4",
+      "index": 26,
+      "title": "9.4　概要：2標本の正規母集団に関する検定",
+      "appendix": false
+    },
+    {
+      "id": "two-design",
+      "index": 27,
+      "title": "9.4　独立な二標本の問題設定",
+      "appendix": false
+    },
+    {
+      "id": "pooled",
+      "index": 28,
+      "title": "9.4.1　等分散の正規二標本",
+      "appendix": false
+    },
+    {
+      "id": "welch",
+      "index": 29,
+      "title": "9.4.1　等分散を置かない二標本",
+      "appendix": false
+    },
+    {
+      "id": "variance-test",
+      "index": 30,
+      "title": "9.4.2　正規二標本の分散比",
+      "appendix": false
+    },
+    {
+      "id": "paired-t",
+      "index": 31,
+      "title": "9.4.3　対応のある標本の検定",
+      "appendix": false
+    },
+    {
+      "id": "intro-9.5",
+      "index": 32,
+      "title": "9.5　概要：ワルド型検定",
+      "appendix": false
+    },
+    {
+      "id": "wald",
+      "index": 33,
+      "title": "9.5.1　最尤推定量を用いた検定",
+      "appendix": false
+    },
+    {
+      "id": "bernoulli-wald",
+      "index": 34,
+      "title": "9.5.1　例9.6：ベルヌーイ母数",
+      "appendix": false
+    },
+    {
+      "id": "nonparam-mean",
+      "index": 35,
+      "title": "9.5.2　母平均の検定",
+      "appendix": false
+    },
+    {
+      "id": "paired-binary",
+      "index": 36,
+      "title": "9.5.2　例9.7：夫婦の支持率の差",
+      "appendix": false
+    },
+    {
+      "id": "intro-9.6",
+      "index": 37,
+      "title": "9.6　概要：信頼区間",
+      "appendix": false
+    },
+    {
+      "id": "ci-inversion",
+      "index": 38,
+      "title": "9.6.1　定義9.8と検定の反転",
+      "appendix": false
+    },
+    {
+      "id": "ci-coverage-proposition",
+      "index": 39,
+      "title": "9.6.1　信頼集合の被覆確率の命題",
+      "appendix": false
+    },
+    {
+      "id": "ci-proof",
+      "index": 40,
+      "title": "9.6.1　信頼集合の被覆確率の証明",
+      "appendix": false
+    },
+    {
+      "id": "coverage",
+      "index": 41,
+      "title": "9.6.1　信頼係数の解釈",
+      "appendix": false
+    },
+    {
+      "id": "wald-ci",
+      "index": 42,
+      "title": "9.6.2　最尤推定量と母平均の区間",
+      "appendix": false
+    },
+    {
+      "id": "paired-ci",
+      "index": 43,
+      "title": "9.6.2　例9.11：夫婦の支持率差の区間",
+      "appendix": false
+    },
+    {
+      "id": "sample-size",
+      "index": 44,
+      "title": "9.6.3　例9.12：区間の幅と標本数",
+      "appendix": false
+    },
+    {
+      "id": "known-ci",
+      "index": 45,
+      "title": "9.6.3　正規平均・既知分散",
+      "appendix": false
+    },
+    {
+      "id": "unknown-ci",
+      "index": 46,
+      "title": "9.6.3　正規平均・未知分散",
+      "appendix": false
+    },
+    {
+      "id": "intro-9.7",
+      "index": 47,
+      "title": "9.7　概要：相関係数の検定とフィッシャーのz変換",
+      "appendix": false
+    },
+    {
+      "id": "correlation-definition",
+      "index": 48,
+      "title": "9.7.1　資料の標本相関係数",
+      "appendix": false
+    },
+    {
+      "id": "corr-null",
+      "index": 49,
+      "title": "9.7.1　母相関が零かどうかの検定",
+      "appendix": false
+    },
+    {
+      "id": "fisher-z",
+      "index": 50,
+      "title": "9.7.2　フィッシャーのz変換",
+      "appendix": false
+    },
+    {
+      "id": "correlation-test",
+      "index": 51,
+      "title": "9.7.3　都道府県データの検定",
+      "appendix": false
+    },
+    {
+      "id": "correlation-ci",
+      "index": 52,
+      "title": "9.7.3　相関係数の信頼区間",
+      "appendix": false
+    },
+    {
+      "id": "appendix-title",
+      "index": 53,
+      "title": "Appendix",
+      "appendix": true
+    },
+    {
+      "id": "appendix-mle-setting",
+      "index": 54,
+      "title": "A1　対数尤度・最尤推定量と前提",
+      "appendix": true
+    },
+    {
+      "id": "appendix-fisher-identity",
+      "index": 55,
+      "title": "A2　スコアとフィッシャー情報量",
+      "appendix": true
+    },
+    {
+      "id": "appendix-curvature-lln",
+      "index": 56,
+      "title": "A3　曲率の極限：大数の法則",
+      "appendix": true
+    },
+    {
+      "id": "appendix-curvature-random",
+      "index": 57,
+      "title": "A4　評価点を推定値に置き換える根拠",
+      "appendix": true
+    },
+    {
+      "id": "appendix-score-clt",
+      "index": 58,
+      "title": "A5　スコアの極限：中心極限定理",
+      "appendix": true
+    },
+    {
+      "id": "appendix-score-mvt",
+      "index": 59,
+      "title": "A6　スコアに平均値の定理を使う",
+      "appendix": true
+    },
+    {
+      "id": "appendix-score-algebra",
+      "index": 60,
+      "title": "A7　推定誤差を比の形に整理する",
+      "appendix": true
+    },
+    {
+      "id": "appendix-mle-slutsky",
+      "index": 61,
+      "title": "A8　比の極限から漸近正規性を得る",
+      "appendix": true
+    },
+    {
+      "id": "appendix-taylor-close",
+      "index": 62,
+      "title": "A9　二次近似に必要な「近さ」",
+      "appendix": true
+    },
+    {
+      "id": "appendix-taylor-remainder",
+      "index": 63,
+      "title": "A10　二次近似の剰余項を制御する",
+      "appendix": true
+    },
+    {
+      "id": "appendix-wilks-connection",
+      "index": 64,
+      "title": "A11　本編への接続：カイ二乗極限",
+      "appendix": true
+    }
+  ],
+  "sourceTitleStyle": {
+    "article": "slide title-only theme-explain",
+    "font": "700 72px / 108px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+    "position": "center"
+  },
+  "layout": [
+    {
+      "title": "Appendix",
+      "clipping": [],
+      "math": [],
+      "style": {
+        "article": "slide title-only theme-explain",
+        "font": "700 72px / 108px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+        "position": "center"
+      },
+      "counter": "Appendix"
+    },
+    {
+      "title": "A1　対数尤度・最尤推定量と前提",
+      "id": "appendix-mle-setting",
+      "clipping": [],
+      "math": [
+        {
+          "tex": "\n\\ell(\\theta)=\\sum_{i=1}^n\\log f(X_i\\mid\\theta),\n\\qquad\n\\hat\\theta=\\underset{\\theta\\in\\Theta}{\\arg\\max}\\;\\ell(\\theta).\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 458.0027770996094,
+            "bottom": 553.80419921875,
+            "width": 1455.64453125,
+            "height": 95.80142211914062
+          }
+        }
+      ],
+      "style": {
+        "article": "slide theme-proof",
+        "font": "700 32px / 40px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+        "position": "start"
+      },
+      "counter": "Appendix 1"
+    },
+    {
+      "title": "A2　スコアとフィッシャー情報量",
+      "id": "appendix-fisher-identity",
+      "clipping": [],
+      "math": [
+        {
+          "tex": "\ns_i(\\theta)=\\frac{\\partial}{\\partial\\theta}\\log f(X_i\\mid\\theta),\n\\qquad\nh_i(\\theta)=-\\frac{\\partial^2}{\\partial\\theta^2}\\log f(X_i\\mid\\theta).\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 413.1687316894531,
+            "bottom": 484.3729248046875,
+            "width": 1455.64453125,
+            "height": 71.20419311523438
+          }
+        },
+        {
+          "tex": "\nE_{\\theta_0}[s_i(\\theta_0)]\n=\\int\\left.\\frac{\\partial f(x\\mid\\theta)}{\\partial\\theta}\\right|_{\\theta=\\theta_0}\\!dx=0.\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 572.683349609375,
+            "bottom": 656.0743408203125,
+            "width": 1455.64453125,
+            "height": 83.3909912109375
+          }
+        },
+        {
+          "tex": "\nI(\\theta_0):=\\operatorname{Var}_{\\theta_0}[s_i(\\theta_0)]\n=E_{\\theta_0}[h_i(\\theta_0)].\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 744.384765625,
+            "bottom": 800.3992919921875,
+            "width": 1455.64453125,
+            "height": 56.0145263671875
+          }
+        }
+      ],
+      "style": {
+        "article": "slide theme-proof",
+        "font": "700 32px / 40px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+        "position": "start"
+      },
+      "counter": "Appendix 2"
+    },
+    {
+      "title": "A3　曲率の極限：大数の法則",
+      "id": "appendix-curvature-lln",
+      "clipping": [],
+      "math": [
+        {
+          "tex": "\n-\\frac1n\\ell''(\\theta_0)\n=\\frac1n\\sum_{i=1}^n h_i(\\theta_0).\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 443.1166687011719,
+            "bottom": 538.9180908203125,
+            "width": 1455.64453125,
+            "height": 95.80142211914062
+          }
+        },
+        {
+          "tex": "\n\\frac1n\\sum_{i=1}^n h_i(\\theta_0)\n\\xrightarrow{p}E_{\\theta_0}[h_i(\\theta_0)]\n=I(\\theta_0).\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 627.228515625,
+            "bottom": 723.0299072265625,
+            "width": 1455.64453125,
+            "height": 95.8013916015625
+          }
+        }
+      ],
+      "style": {
+        "article": "slide theme-proof",
+        "font": "700 32px / 40px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+        "position": "start"
+      },
+      "counter": "Appendix 3"
+    },
+    {
+      "title": "A4　評価点を推定値に置き換える根拠",
+      "id": "appendix-curvature-random",
+      "clipping": [],
+      "math": [
+        {
+          "tex": "\n\\sup_{\\theta\\in U}\n\\left|-\\frac1n\\ell''(\\theta)-H(\\theta)\\right|\\xrightarrow{p}0.\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 406.7478942871094,
+            "bottom": 486.0340270996094,
+            "width": 1455.64453125,
+            "height": 79.2861328125
+          }
+        },
+        {
+          "tex": "\n\\left|-\\frac1n\\ell''(T_n)-I(\\theta_0)\\right|\n\\le\n\\left|-\\frac1n\\ell''(T_n)-H(T_n)\\right|\n+|H(T_n)-H(\\theta_0)|.\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 574.344482421875,
+            "bottom": 652.847900390625,
+            "width": 1455.64453125,
+            "height": 78.50341796875
+          }
+        },
+        {
+          "tex": "\n-\\frac1n\\ell''(\\hat\\theta)\\xrightarrow{p}I(\\theta_0),\n\\qquad\n-\\frac1n\\ell''(\\tilde\\theta)\\xrightarrow{p}I(\\theta_0).\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 741.1583251953125,
+            "bottom": 806.8201904296875,
+            "width": 1455.64453125,
+            "height": 65.661865234375
+          }
+        }
+      ],
+      "style": {
+        "article": "slide theme-proof",
+        "font": "700 32px / 40px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+        "position": "start"
+      },
+      "counter": "Appendix 4"
+    },
+    {
+      "title": "A5　スコアの極限：中心極限定理",
+      "id": "appendix-score-clt",
+      "clipping": [],
+      "math": [
+        {
+          "tex": "\n\\ell'(\\theta_0)=\\sum_{i=1}^n s_i(\\theta_0),\n\\qquad\nE_{\\theta_0}[s_i(\\theta_0)]=0,\n\\quad\\operatorname{Var}_{\\theta_0}[s_i(\\theta_0)]=I(\\theta_0).\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 449.1701354980469,
+            "bottom": 544.9715576171875,
+            "width": 1455.64453125,
+            "height": 95.80142211914062
+          }
+        },
+        {
+          "tex": "\n\\frac{\\ell'(\\theta_0)}{\\sqrt{nI(\\theta_0)}}\n\\xrightarrow{d}N(0,1)\n\\quad\\Longrightarrow\\quad\n\\frac{\\ell'(\\theta_0)}{\\sqrt n}\n\\xrightarrow{d}N(0,I(\\theta_0)).\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 633.281982421875,
+            "bottom": 716.9923095703125,
+            "width": 1455.64453125,
+            "height": 83.7103271484375
+          }
+        }
+      ],
+      "style": {
+        "article": "slide theme-proof",
+        "font": "700 32px / 40px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+        "position": "start"
+      },
+      "counter": "Appendix 5"
+    },
+    {
+      "title": "A6　スコアに平均値の定理を使う",
+      "id": "appendix-score-mvt",
+      "clipping": [],
+      "math": [
+        {
+          "tex": "\ng(\\hat\\theta)-g(\\theta_0)\n=g'(\\tilde\\theta)(\\hat\\theta-\\theta_0).\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 482.9034729003906,
+            "bottom": 538.9180908203125,
+            "width": 1455.64453125,
+            "height": 56.014617919921875
+          }
+        },
+        {
+          "tex": "\n0=\\ell'(\\hat\\theta)\n=\\ell'(\\theta_0)+\\ell''(\\tilde\\theta)(\\hat\\theta-\\theta_0).\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 627.228515625,
+            "bottom": 683.2430419921875,
+            "width": 1455.64453125,
+            "height": 56.0145263671875
+          }
+        }
+      ],
+      "style": {
+        "article": "slide theme-proof",
+        "font": "700 32px / 40px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+        "position": "start"
+      },
+      "counter": "Appendix 6"
+    },
+    {
+      "title": "A7　推定誤差を比の形に整理する",
+      "id": "appendix-score-algebra",
+      "clipping": [],
+      "math": [
+        {
+          "tex": "\n\\begin{aligned}\n0&=\\ell'(\\theta_0)+\\ell''(\\tilde\\theta)(\\hat\\theta-\\theta_0),\\\\[5pt]\n-\\ell''(\\tilde\\theta)(\\hat\\theta-\\theta_0)&=\\ell'(\\theta_0),\\\\[5pt]\n\\sqrt n(\\hat\\theta-\\theta_0)\n&=\\frac{\\sqrt n\\,\\ell'(\\theta_0)}{-\\ell''(\\tilde\\theta)}\\\\[5pt]\n&=\\frac{\\ell'(\\theta_0)/\\sqrt n}{-\\ell''(\\tilde\\theta)/n}.\n\\end{aligned}\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 420.6277770996094,
+            "bottom": 745.5347900390625,
+            "width": 1455.64453125,
+            "height": 324.9070129394531
+          }
+        }
+      ],
+      "style": {
+        "article": "slide theme-proof",
+        "font": "700 32px / 40px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+        "position": "start"
+      },
+      "counter": "Appendix 7"
+    },
+    {
+      "title": "A8　比の極限から漸近正規性を得る",
+      "id": "appendix-mle-slutsky",
+      "clipping": [],
+      "math": [
+        {
+          "tex": "\n\\frac{\\ell'(\\theta_0)}{\\sqrt n}\\xrightarrow{d}Z,\n\\quad Z\\sim N(0,I(\\theta_0)),\n\\qquad\n-\\frac1n\\ell''(\\tilde\\theta)\\xrightarrow{p}I(\\theta_0)>0.\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 461.0854187011719,
+            "bottom": 538.2471923828125,
+            "width": 1455.64453125,
+            "height": 77.16177368164062
+          }
+        },
+        {
+          "tex": "\n\\sqrt n(\\hat\\theta-\\theta_0)\n\\xrightarrow{d}\\frac{Z}{I(\\theta_0)}\n\\sim N\\!\\left(0,\\frac1{I(\\theta_0)}\\right).\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 626.5576171875,
+            "bottom": 705.0611572265625,
+            "width": 1455.64453125,
+            "height": 78.5035400390625
+          }
+        }
+      ],
+      "style": {
+        "article": "slide theme-proof",
+        "font": "700 32px / 40px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+        "position": "start"
+      },
+      "counter": "Appendix 8"
+    },
+    {
+      "title": "A9　二次近似に必要な「近さ」",
+      "id": "appendix-taylor-close",
+      "clipping": [],
+      "math": [
+        {
+          "tex": "\n\\sqrt n(\\hat\\theta-\\theta_0)\\xrightarrow{d}\nN\\!\\left(0,\\frac1{I(\\theta_0)}\\right)\n\\quad\\Longrightarrow\\quad\n\\hat\\theta-\\theta_0=O_p(n^{-1/2})\\xrightarrow{p}0.\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 423.1833190917969,
+            "bottom": 501.6867980957031,
+            "width": 1455.64453125,
+            "height": 78.50347900390625
+          }
+        },
+        {
+          "tex": "\n\\ell(\\theta_0)=\\ell(\\hat\\theta)\n+\\frac12\\ell''(\\hat\\theta)(\\theta_0-\\hat\\theta)^2+r_n.\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 724.9305419921875,
+            "bottom": 790.5924072265625,
+            "width": 1455.64453125,
+            "height": 65.661865234375
+          }
+        }
+      ],
+      "style": {
+        "article": "slide theme-proof",
+        "font": "700 32px / 40px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+        "position": "start"
+      },
+      "counter": "Appendix 9"
+    },
+    {
+      "title": "A10　二次近似の剰余項を制御する",
+      "id": "appendix-taylor-remainder",
+      "clipping": [],
+      "math": [
+        {
+          "tex": "\nr_n=\\frac16\\ell'''(\\xi_n)(\\theta_0-\\hat\\theta)^3.\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 471.8666687011719,
+            "bottom": 537.5284423828125,
+            "width": 1455.64453125,
+            "height": 65.66177368164062
+          }
+        },
+        {
+          "tex": "\n\\sup_{\\theta\\in U}|\\ell'''(\\theta)|=O_p(n),\n\\quad\\hat\\theta-\\theta_0=O_p(n^{-1/2})\n\\quad\\Longrightarrow\\quad\nr_n=O_p(n^{-1/2})=o_p(1).\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 625.8388671875,
+            "bottom": 694.487548828125,
+            "width": 1455.64453125,
+            "height": 68.648681640625
+          }
+        }
+      ],
+      "style": {
+        "article": "slide theme-proof",
+        "font": "700 32px / 40px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+        "position": "start"
+      },
+      "counter": "Appendix 10"
+    },
+    {
+      "title": "A11　本編への接続：カイ二乗極限",
+      "id": "appendix-wilks-connection",
+      "clipping": [],
+      "math": [
+        {
+          "tex": "\n-2\\log\\Lambda\n=\\frac{-\\ell''(\\hat\\theta)}{nI(\\theta_0)}\n\\left\\{\\sqrt{nI(\\theta_0)}(\\hat\\theta-\\theta_0)\\right\\}^2+o_p(1).\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 430.08331298828125,
+            "bottom": 514.1771240234375,
+            "width": 1455.64453125,
+            "height": 84.09381103515625
+          }
+        },
+        {
+          "tex": "\n\\frac{-\\ell''(\\hat\\theta)}{nI(\\theta_0)}\\xrightarrow{p}1,\n\\qquad\n\\left\\{\\sqrt{nI(\\theta_0)}(\\hat\\theta-\\theta_0)\\right\\}^2\n\\xrightarrow{d}\\chi^2_1.\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 602.487548828125,
+            "bottom": 686.581298828125,
+            "width": 1455.64453125,
+            "height": 84.09375
+          }
+        },
+        {
+          "tex": "\n\\Longrightarrow\\quad -2\\log\\Lambda\\xrightarrow{d}\\chi^2_1.\n",
+          "overflow": false,
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 727.4700927734375,
+            "bottom": 783.4847412109375,
+            "width": 1455.64453125,
+            "height": 56.0146484375
+          }
+        }
+      ],
+      "style": {
+        "article": "slide theme-proof",
+        "font": "700 32px / 40px \"Yu Gothic\", 游ゴシック, Meiryo, メイリオ, sans-serif",
+        "position": "start"
+      },
+      "counter": "Appendix 11"
+    }
+  ],
+  "navigation": {
+    "nextEnabled": true,
+    "afterMain": "Appendix",
+    "afterCover": "A1　対数尤度・最尤推定量と前提",
+    "backToMain": true,
+    "nextDisabled": true,
+    "appendixInOutline": true
+  },
+  "runtimeErrors": []
+}

@@ -1,0 +1,21 @@
+const{chromium}=require('C:/Users/User/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const{pathToFileURL}=require('url');const assert=require('assert/strict');
+(async()=>{
+ const b=await chromium.launch({headless:true,executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'});
+ const p=await b.newPage(),errors=[];p.on('pageerror',e=>errors.push(e.message));
+ await p.goto(pathToFileURL(process.argv[2]).href+'#2');await p.evaluate(()=>document.fonts.ready);
+ assert.deepEqual(await p.evaluate(()=>({count:deck.slides.length,slider:Number(document.getElementById('slide-seek').max),ids:deck.slides.slice(0,5).map(s=>s.id)})),{count:87,slider:87,ids:['chapter','opening-review-t-f','opening-review-regularity-information','agenda','intro-9.1']});
+ assert.deepEqual(await p.evaluate(()=>mathErrors()),[]);
+ await p.evaluate(()=>go(3));assert.equal(await p.locator('#stage [data-agenda-go]').count(),8);
+ await p.locator('#stage [data-agenda-go]').first().click();
+ assert.equal(await p.locator('#stage article').getAttribute('data-slide-id'),'opening-review-t-f');
+ await p.evaluate(()=>go(3));
+ await p.locator('#stage [data-agenda-go]').nth(1).click();
+ assert.equal(await p.locator('#stage article').getAttribute('data-slide-id'),'intro-9.1');
+ const saved=await p.evaluate(()=>buildSavedHTML());
+ const d=JSON.parse(saved.match(/<script id="deck-data" type="application\/json">([\s\S]*?)<\/script>/)[1]);
+ assert.equal(d.slides.length,87);assert.equal(d.slides[1].id,'opening-review-t-f');assert.equal(d.slides[2].id,'opening-review-regularity-information');
+ assert(d.slides[2].notes.includes('https://stat210a.berkeley.edu/'));assert.deepEqual(errors,[]);
+ console.log(JSON.stringify({slides:87,reviewAfterTitle:true,agendaUpdated:true,agendaLinksCorrect:true,savedHtmlPreservesReview:true,pageSliderSynced:true,allLatexValid:true,errors}));
+ await b.close();
+})();

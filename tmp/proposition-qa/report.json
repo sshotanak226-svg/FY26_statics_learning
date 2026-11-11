@@ -1,0 +1,498 @@
+{
+  "count": 53,
+  "mathErrors": [],
+  "slides": [
+    {
+      "id": "chapter",
+      "index": 0,
+      "title": "９章　仮説検定と信頼区間"
+    },
+    {
+      "id": "agenda",
+      "index": 1,
+      "title": "スライド項目：アジェンダ"
+    },
+    {
+      "id": "intro-9.1",
+      "index": 2,
+      "title": "9.1　概要：仮説検定とは"
+    },
+    {
+      "id": "test-design",
+      "index": 3,
+      "title": "9.1.1　観測の確率と誤った判断"
+    },
+    {
+      "id": "coin-model",
+      "index": 4,
+      "title": "9.1.2　コインの二つの仮説"
+    },
+    {
+      "id": "intro-9.2",
+      "index": 5,
+      "title": "9.2　概要：統計的仮説検定の考え方"
+    },
+    {
+      "id": "hypothesis-design",
+      "index": 6,
+      "title": "9.2.1　単純仮説と複合仮説"
+    },
+    {
+      "id": "test-rule",
+      "index": 7,
+      "title": "9.2.1　検定統計量と棄却域"
+    },
+    {
+      "id": "errors-power",
+      "index": 8,
+      "title": "9.2.2　有意水準と検出力"
+    },
+    {
+      "id": "slide-1791097900354-estok",
+      "index": 9,
+      "title": "9.2.2　$P(・｜H_0),P(・｜H_1)$の書き方について"
+    },
+    {
+      "id": "p-value",
+      "index": 10,
+      "title": "9.2.2　資料のp値の定義"
+    },
+    {
+      "id": "intro-9.3",
+      "index": 11,
+      "title": "9.3　概要：尤度比検定"
+    },
+    {
+      "id": "np",
+      "index": 12,
+      "title": "9.3.1　補題9.1：ネイマン–ピアソンの補題"
+    },
+    {
+      "id": "np-proof",
+      "index": 13,
+      "title": "9.3.1　定理9.1の証明①：差を積分する"
+    },
+    {
+      "id": "np-proof-integral",
+      "index": 14,
+      "title": "9.3.1　定理9.1の証明②：符号から結論へ"
+    },
+    {
+      "id": "ump-proposition",
+      "index": 15,
+      "title": "9.3.1　定理9.2：一様最強力性の命題"
+    },
+    {
+      "id": "ump-general",
+      "index": 16,
+      "title": "9.3.1　定理9.2：一様最強力性の証明"
+    },
+    {
+      "id": "general-lr",
+      "index": 17,
+      "title": "9.3.2　一般の尤度比検定"
+    },
+    {
+      "id": "wilks",
+      "index": 18,
+      "title": "9.3.2　定理9.3：尤度比の漸近分布の命題"
+    },
+    {
+      "id": "wilks-proof-one",
+      "index": 19,
+      "title": "9.3.2　定理9.3の証明①：資料の二次展開"
+    },
+    {
+      "id": "wilks-proof-limit",
+      "index": 20,
+      "title": "9.3.2　定理9.3の証明②：極限を組み合わせる"
+    },
+    {
+      "id": "normal-ump-proposition",
+      "index": 21,
+      "title": "9.3.1　正規平均の一様最強力性の命題"
+    },
+    {
+      "id": "ump-proof",
+      "index": 22,
+      "title": "9.3.1　正規平均の一様最強力性"
+    },
+    {
+      "id": "normal-lr",
+      "index": 23,
+      "title": "9.3.2　例9.4：既知分散の正規平均"
+    },
+    {
+      "id": "normal-t-lr",
+      "index": 24,
+      "title": "9.3.2　例9.5：未知分散の尤度比"
+    },
+    {
+      "id": "normal-t",
+      "index": 25,
+      "title": "9.3.2　例9.5：t分布による検定"
+    },
+    {
+      "id": "intro-9.4",
+      "index": 26,
+      "title": "9.4　概要：2標本の正規母集団に関する検定"
+    },
+    {
+      "id": "two-design",
+      "index": 27,
+      "title": "9.4　独立な二標本の問題設定"
+    },
+    {
+      "id": "pooled",
+      "index": 28,
+      "title": "9.4.1　等分散の正規二標本"
+    },
+    {
+      "id": "welch",
+      "index": 29,
+      "title": "9.4.1　等分散を置かない二標本"
+    },
+    {
+      "id": "variance-test",
+      "index": 30,
+      "title": "9.4.2　正規二標本の分散比"
+    },
+    {
+      "id": "paired-t",
+      "index": 31,
+      "title": "9.4.3　対応のある標本の検定"
+    },
+    {
+      "id": "intro-9.5",
+      "index": 32,
+      "title": "9.5　概要：ワルド型検定"
+    },
+    {
+      "id": "wald",
+      "index": 33,
+      "title": "9.5.1　最尤推定量を用いた検定"
+    },
+    {
+      "id": "bernoulli-wald",
+      "index": 34,
+      "title": "9.5.1　例9.6：ベルヌーイ母数"
+    },
+    {
+      "id": "nonparam-mean",
+      "index": 35,
+      "title": "9.5.2　母平均の検定"
+    },
+    {
+      "id": "paired-binary",
+      "index": 36,
+      "title": "9.5.2　例9.7：夫婦の支持率の差"
+    },
+    {
+      "id": "intro-9.6",
+      "index": 37,
+      "title": "9.6　概要：信頼区間"
+    },
+    {
+      "id": "ci-inversion",
+      "index": 38,
+      "title": "9.6.1　定義9.8と検定の反転"
+    },
+    {
+      "id": "ci-coverage-proposition",
+      "index": 39,
+      "title": "9.6.1　信頼集合の被覆確率の命題"
+    },
+    {
+      "id": "ci-proof",
+      "index": 40,
+      "title": "9.6.1　信頼集合の被覆確率の証明"
+    },
+    {
+      "id": "coverage",
+      "index": 41,
+      "title": "9.6.1　信頼係数の解釈"
+    },
+    {
+      "id": "wald-ci",
+      "index": 42,
+      "title": "9.6.2　最尤推定量と母平均の区間"
+    },
+    {
+      "id": "paired-ci",
+      "index": 43,
+      "title": "9.6.2　例9.11：夫婦の支持率差の区間"
+    },
+    {
+      "id": "sample-size",
+      "index": 44,
+      "title": "9.6.3　例9.12：区間の幅と標本数"
+    },
+    {
+      "id": "known-ci",
+      "index": 45,
+      "title": "9.6.3　正規平均・既知分散"
+    },
+    {
+      "id": "unknown-ci",
+      "index": 46,
+      "title": "9.6.3　正規平均・未知分散"
+    },
+    {
+      "id": "intro-9.7",
+      "index": 47,
+      "title": "9.7　概要：相関係数の検定とフィッシャーのz変換"
+    },
+    {
+      "id": "correlation-definition",
+      "index": 48,
+      "title": "9.7.1　資料の標本相関係数"
+    },
+    {
+      "id": "corr-null",
+      "index": 49,
+      "title": "9.7.1　母相関が零かどうかの検定"
+    },
+    {
+      "id": "fisher-z",
+      "index": 50,
+      "title": "9.7.2　フィッシャーのz変換"
+    },
+    {
+      "id": "correlation-test",
+      "index": 51,
+      "title": "9.7.3　都道府県データの検定"
+    },
+    {
+      "id": "correlation-ci",
+      "index": 52,
+      "title": "9.7.3　相関係数の信頼区間"
+    }
+  ],
+  "layout": [
+    {
+      "id": "ump-proposition",
+      "content": {
+        "left": 104.57772827148438,
+        "right": 1617.4666442871094,
+        "top": 266.5916442871094,
+        "bottom": 903.6597595214844,
+        "width": 1512.888916015625,
+        "height": 637.068115234375
+      },
+      "text": {
+        "left": 104.57772827148438,
+        "right": 1617.4666442871094,
+        "top": 274.7694091796875,
+        "bottom": 891.39306640625,
+        "width": 1512.888916015625,
+        "height": 616.6236572265625
+      },
+      "foot": {
+        "left": 104.57772827148438,
+        "right": 1617.4666442871094,
+        "top": 915.9263916015625,
+        "bottom": 958.4444580078125,
+        "width": 1512.888916015625,
+        "height": 42.51806640625
+      },
+      "clipped": false,
+      "math": [
+        {
+          "tex": "\nR_{\\theta_1}=R\\quad(\\forall\\theta_1>\\theta_0)\n\\quad\\Longrightarrow\\quad\nE_{\\theta_1}[\\varphi(\\boldsymbol X)]\n\\ge E_{\\theta_1}[\\varphi'(\\boldsymbol X)]\n\\quad(\\forall\\theta_1>\\theta_0).\n",
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 510.50347900390625,
+            "bottom": 566.51806640625,
+            "width": 1455.64453125,
+            "height": 56.01458740234375
+          },
+          "natural": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 510.50347900390625,
+            "bottom": 566.51806640625,
+            "width": 1455.64453125,
+            "height": 56.01458740234375
+          },
+          "overflow": false
+        }
+      ],
+      "errors": []
+    },
+    {
+      "id": "wilks",
+      "content": {
+        "left": 104.57772827148438,
+        "right": 1617.4666442871094,
+        "top": 266.5916442871094,
+        "bottom": 903.6597595214844,
+        "width": 1512.888916015625,
+        "height": 637.068115234375
+      },
+      "text": {
+        "left": 104.57772827148438,
+        "right": 1617.4666442871094,
+        "top": 274.7694091796875,
+        "bottom": 891.39306640625,
+        "width": 1512.888916015625,
+        "height": 616.6236572265625
+      },
+      "foot": {
+        "left": 104.57772827148438,
+        "right": 1617.4666442871094,
+        "top": 915.9263916015625,
+        "bottom": 958.4444580078125,
+        "width": 1512.888916015625,
+        "height": 42.51806640625
+      },
+      "clipped": false,
+      "math": [
+        {
+          "tex": "\n\\left.\n\\begin{gathered}\n\\theta\\in\\Theta_0,\\qquad \\text{正則条件が成立},\\\\\n\\dim\\Theta=m,\\qquad\\dim\\Theta_0=k<m\n\\end{gathered}\n\\right\\}\n\\quad\\Longrightarrow\\quad\n-2\\log\\Lambda(\\boldsymbol X)\\xrightarrow{d}\\chi^2_{m-k}.\n",
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 476.7861022949219,
+            "bottom": 574.91943359375,
+            "width": 1455.64453125,
+            "height": 98.13333129882812
+          },
+          "natural": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 476.7861022949219,
+            "bottom": 574.91943359375,
+            "width": 1455.64453125,
+            "height": 98.13333129882812
+          },
+          "overflow": false
+        },
+        {
+          "tex": "\nR=\\{-2\\log\\Lambda(\\boldsymbol X)>\\chi^2_{m-k,\\alpha}\\}.\n",
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 663.2298583984375,
+            "bottom": 719.2445068359375,
+            "width": 1455.64453125,
+            "height": 56.0146484375
+          },
+          "natural": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 663.2298583984375,
+            "bottom": 719.2445068359375,
+            "width": 1455.64453125,
+            "height": 56.0146484375
+          },
+          "overflow": false
+        }
+      ],
+      "errors": []
+    },
+    {
+      "id": "normal-ump-proposition",
+      "content": {
+        "left": 104.57772827148438,
+        "right": 1617.4666442871094,
+        "top": 266.5916442871094,
+        "bottom": 903.6597595214844,
+        "width": 1512.888916015625,
+        "height": 637.068115234375
+      },
+      "text": {
+        "left": 104.57772827148438,
+        "right": 1617.4666442871094,
+        "top": 274.7694091796875,
+        "bottom": 891.39306640625,
+        "width": 1512.888916015625,
+        "height": 616.6236572265625
+      },
+      "foot": {
+        "left": 104.57772827148438,
+        "right": 1617.4666442871094,
+        "top": 915.9263916015625,
+        "bottom": 958.4444580078125,
+        "width": 1512.888916015625,
+        "height": 42.51806640625
+      },
+      "clipped": false,
+      "math": [
+        {
+          "tex": "\nR=\\left\\{\\frac{\\sqrt n(\\bar X-\\mu_0)}{\\sigma_0}>z_\\alpha\\right\\}\n\\quad\\Longrightarrow\\quad\nE_\\mu[\\varphi(\\boldsymbol X)]\\ge E_\\mu[\\varphi'(\\boldsymbol X)]\n\\quad(\\forall\\mu>\\mu_0).\n",
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 499.9617919921875,
+            "bottom": 579.9986572265625,
+            "width": 1455.64453125,
+            "height": 80.036865234375
+          },
+          "natural": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 499.9617919921875,
+            "bottom": 579.9986572265625,
+            "width": 1455.64453125,
+            "height": 80.036865234375
+          },
+          "overflow": false
+        }
+      ],
+      "errors": []
+    },
+    {
+      "id": "ci-coverage-proposition",
+      "content": {
+        "left": 104.57772827148438,
+        "right": 1617.4666442871094,
+        "top": 266.5916442871094,
+        "bottom": 903.6597595214844,
+        "width": 1512.888916015625,
+        "height": 637.068115234375
+      },
+      "text": {
+        "left": 104.57772827148438,
+        "right": 1617.4666442871094,
+        "top": 274.7694091796875,
+        "bottom": 891.39306640625,
+        "width": 1512.888916015625,
+        "height": 616.6236572265625
+      },
+      "foot": {
+        "left": 104.57772827148438,
+        "right": 1617.4666442871094,
+        "top": 915.9263916015625,
+        "bottom": 958.4444580078125,
+        "width": 1512.888916015625,
+        "height": 42.51806640625
+      },
+      "clipped": false,
+      "math": [
+        {
+          "tex": "\n\\left.\n\\begin{gathered}\nP_{\\theta_0}\\{\\boldsymbol X\\in A(\\theta_0)\\}=1-\\alpha\n\\quad(\\forall\\theta_0\\in\\Theta),\\\\[4pt]\nC(\\boldsymbol x)=\\{\\theta_0\\in\\Theta:\\boldsymbol x\\in A(\\theta_0)\\}\n\\end{gathered}\n\\right\\}\n\\quad\\Longrightarrow\\quad\n\\begin{gathered}\nP_\\theta\\{\\theta\\in C(\\boldsymbol X)\\}=1-\\alpha\\\\\n(\\forall\\theta\\in\\Theta).\n\\end{gathered}\n",
+          "box": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 524.2076416015625,
+            "bottom": 641.954833984375,
+            "width": 1455.64453125,
+            "height": 117.7471923828125
+          },
+          "natural": {
+            "left": 133.199951171875,
+            "right": 1588.844482421875,
+            "top": 524.2076416015625,
+            "bottom": 641.954833984375,
+            "width": 1455.64453125,
+            "height": 117.7471923828125
+          },
+          "overflow": false
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "runtimeErrors": []
+}

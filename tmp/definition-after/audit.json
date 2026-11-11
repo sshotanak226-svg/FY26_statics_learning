@@ -1,0 +1,501 @@
+{
+  "file": "F:\\Document\\Fy26 TDH statics lean\\output\\９章_仮説検定と信頼区間_数式定義整理.html",
+  "report": [
+    {
+      "page": 1,
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 2,
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 3,
+      "id": "intro-9.1",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 4,
+      "id": "test-design",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 5,
+      "id": "coin-model",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 6,
+      "id": "intro-9.2",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 7,
+      "id": "hypothesis-design",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 8,
+      "id": "test-rule",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 9,
+      "id": "errors-power",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 10,
+      "id": "slide-1791097900354-estok",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 11,
+      "id": "p-value",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 12,
+      "id": "intro-9.3",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 13,
+      "id": "np",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 14,
+      "id": "np-proof",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 15,
+      "id": "np-proof-integral",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 16,
+      "id": "ump-proposition",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 17,
+      "id": "ump-general",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 18,
+      "id": "normal-ump-proposition",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 19,
+      "id": "ump-proof",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 20,
+      "id": "general-lr",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 21,
+      "id": "wilks",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 22,
+      "id": "wilks-proof-one",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 23,
+      "id": "slide-1791897820648-9nfwe",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 24,
+      "id": "wilks-proof-limit",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 25,
+      "id": "normal-lr",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 26,
+      "id": "intro-9.4",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 27,
+      "id": "pooled",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 28,
+      "id": "pooled-loglr",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 29,
+      "id": "pooled-exact-t",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 30,
+      "id": "welch",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 31,
+      "id": "variance-test",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 32,
+      "id": "paired-t",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 33,
+      "id": "intro-9.5",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 34,
+      "id": "wald",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 35,
+      "id": "bernoulli-wald",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 36,
+      "id": "nonparam-mean",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 37,
+      "id": "paired-binary",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 38,
+      "id": "intro-9.6",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 39,
+      "id": "ci-inversion",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 40,
+      "id": "ci-coverage-proposition",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 41,
+      "id": "ci-proof",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 42,
+      "id": "coverage",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 43,
+      "id": "wald-ci",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 44,
+      "id": "paired-ci",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 45,
+      "id": "sample-size",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 46,
+      "id": "known-ci",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 47,
+      "id": "unknown-ci",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 48,
+      "id": "intro-9.7",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 49,
+      "id": "correlation-definition",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 50,
+      "id": "corr-null",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 51,
+      "id": "fisher-z",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 52,
+      "id": "correlation-test",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 53,
+      "id": "correlation-ci",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 54,
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 55,
+      "id": "appendix-mle-setting",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 56,
+      "id": "appendix-fisher-identity",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 57,
+      "id": "appendix-curvature-lln",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 58,
+      "id": "appendix-curvature-random",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 59,
+      "id": "appendix-score-clt",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 60,
+      "id": "appendix-score-mvt",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 61,
+      "id": "appendix-score-algebra",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 62,
+      "id": "appendix-mle-slutsky",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 63,
+      "id": "appendix-taylor-close",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 64,
+      "id": "appendix-taylor-remainder",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 65,
+      "id": "appendix-wilks-connection",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 66,
+      "id": "appendix-multi-null",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 67,
+      "id": "appendix-multi-estimators",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 68,
+      "id": "appendix-multi-information",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 69,
+      "id": "appendix-multi-score-expansion",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 70,
+      "id": "appendix-multi-normal",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 71,
+      "id": "appendix-multi-taylor",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 72,
+      "id": "appendix-multi-partition",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 73,
+      "id": "appendix-multi-square",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 74,
+      "id": "appendix-multi-covariance",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 75,
+      "id": "appendix-multi-whitening",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 76,
+      "id": "appendix-multi-df-summary",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 77,
+      "id": "normal-t-lr",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 78,
+      "id": "normal-t-lr-transform",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 79,
+      "id": "normal-t-rejection-equivalence",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 80,
+      "id": "normal-t-null-distribution",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 81,
+      "id": "normal-t",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 82,
+      "id": "two-design",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 83,
+      "id": "slide-1791902681892-1f12n",
+      "issues": [],
+      "mathErrors": []
+    }
+  ],
+  "errors": []
+}

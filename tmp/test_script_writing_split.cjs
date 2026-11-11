@@ -1,0 +1,50 @@
+const {chromium}=require('C:/Users/User/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs=require('fs'),assert=require('assert/strict');const{pathToFileURL}=require('url');
+const file='F:/Document/Fy26 TDH statics lean/output/９章_仮説検定と信頼区間_原稿分割編集.html';
+const dir='F:/Document/Fy26 TDH statics lean/tmp/script-writing-qa';fs.mkdirSync(dir,{recursive:true});
+(async()=>{
+ const b=await chromium.launch({headless:true,executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'});
+ const context=await b.newContext({viewport:{width:1720,height:1060}}),p=await context.newPage(),errors=[];
+ p.setDefaultTimeout(10000);p.setDefaultNavigationTimeout(10000);
+ p.on('pageerror',e=>errors.push(e.message));
+ await p.goto(pathToFileURL(file).href+'#49');await p.evaluate(()=>document.fonts.ready);
+ assert.equal(await p.evaluate(()=>deck.slides.length),88);assert.equal(await p.locator('#source,#sources').count(),0);
+ await p.locator('#editor').click();await p.locator('#edit-script-jump').click();
+ await p.waitForFunction(()=>document.querySelector('#edit-dialog').classList.contains('script-writing'));
+ const checkLayout=()=>p.evaluate(()=>{
+  const a=document.querySelector('#script-slide-preview').getBoundingClientRect(),t=document.querySelector('#edit-script').getBoundingClientRect(),stage=document.querySelector('#script-preview-stage .slide').getBoundingClientRect(),panel=document.querySelector('.editor-panel').getBoundingClientRect();
+  return {preview:{x:a.x,y:a.y,w:a.width,h:a.height},notes:{x:t.x,y:t.y,w:t.width,h:t.height},stage:{x:stage.x,y:stage.y,w:stage.width,h:stage.height},panel:{x:panel.x,y:panel.y,w:panel.width,h:panel.height},mathErrors:document.querySelectorAll('#script-preview-stage .katex-error').length,previewTitle:document.querySelector('#script-preview-stage h1').textContent,expectedTitle:deck.slides[editIndex].title};
+ });
+ const desktop=await checkLayout();assert(desktop.preview.x+desktop.preview.w<desktop.notes.x);assert(desktop.notes.h>350);assert.equal(desktop.previewTitle,desktop.expectedTitle);assert.equal(desktop.mathErrors,0);
+ assert(desktop.stage.x>=desktop.preview.x-2&&desktop.stage.y>=desktop.preview.y-2);assert(desktop.stage.x+desktop.stage.w<=desktop.preview.x+desktop.preview.w+2);
+ await p.screenshot({path:dir+'/desktop.png'});
+ await p.locator('#script-slide-next').click();assert.equal(await p.evaluate(()=>editIndex),49);
+ assert.equal(await p.locator('#edit-script').inputValue(),await p.evaluate(()=>deck.slides[editIndex].notes));
+ await p.locator('#script-slide-prev').click();assert.equal(await p.evaluate(()=>editIndex),48);
+ await p.locator('#script-slide-picker').selectOption('1');assert.equal(await p.evaluate(()=>editIndex),1);
+ const before=await p.evaluate(()=>JSON.stringify({...deck.slides[editIndex],notes:''}));
+ const typed='原稿の保存確認\n\n$Z\\sim N(0,1)$ を説明します。';await p.locator('#edit-script').fill(typed);
+ assert.equal(await p.evaluate(()=>deck.slides[editIndex].notes),typed);assert.equal(await p.evaluate(()=>JSON.stringify({...deck.slides[editIndex],notes:''})),before);
+ await p.waitForFunction(()=>autoSaveBrowserState==='saved'&&!autoSavePending);
+ assert.equal(await p.evaluate(()=>JSON.parse(localStorage.getItem(storageKey)).deck.slides[1].notes),typed);
+ const saved=await p.evaluate(()=>buildSavedHTML());assert(saved.includes('script-writing-layout'));assert(saved.includes('script-slide-preview'));assert(!saved.includes('id="source"'));fs.writeFileSync(dir+'/roundtrip.html',saved);
+ await p.reload();await p.locator('#editor').click();await p.locator('#edit-script-jump').click();await p.locator('#script-slide-picker').selectOption('1');assert.equal(await p.locator('#edit-script').inputValue(),typed);
+ await p.locator('#script-slide-picker').selectOption('48');
+ await p.setViewportSize({width:1100,height:800});const compact=await checkLayout();assert(compact.preview.x+compact.preview.w<compact.notes.x);assert(compact.notes.h>240);await p.screenshot({path:dir+'/compact.png'});
+ await p.setViewportSize({width:1720,height:1060});await p.locator('#edit-script-jump').click();
+ assert(await p.locator('.slide-edit-fields').isVisible());assert(await p.locator('#edit-nav').isVisible());
+ // A regular content edit must also refresh the script preview.
+ const title=await p.locator('#edit-form input[name="title"]').inputValue();await p.locator('#edit-form input[name="title"]').fill(title+'（確認）');await p.locator('#edit-script-jump').click();
+ assert.equal(await p.locator('#script-preview-stage h1').textContent(),title+'（確認）');
+ await p.locator('#preview-edit').click();assert.equal(await p.locator('#edit-dialog.open').count(),0);
+ const popupEvent=p.waitForEvent('popup');await p.locator('#presenter').click();const popup=await popupEvent;
+ popup.on('pageerror',e=>errors.push(e.message));await popup.waitForSelector('#present-title');await popup.waitForFunction(()=>document.querySelector('#present-title').textContent!=='接続しています…');
+ await popup.locator('[data-command="edit-notes"]').click();await p.waitForFunction(()=>scriptWritingMode&&document.querySelector('#edit-dialog').classList.contains('open'));
+ const syncText='発表者表示への反映確認';await p.locator('#edit-script').fill(syncText);await popup.waitForFunction(t=>document.querySelector('#present-notes').textContent.includes(t),syncText,{timeout:10000});
+ await p.locator('#edit-dialog [data-close]').click();await p.keyboard.press('s');assert.equal(await p.locator('.overlay.open').count(),0);
+ await p.locator('#help').click();assert(!(await p.locator('#help-dialog').innerText()).includes('出典'));
+ // Reopen a saved HTML in a separate context, so browser draft storage cannot mask persistence bugs.
+ const fresh=await b.newContext(),q=await fresh.newPage();q.on('pageerror',e=>errors.push(e.message));await q.goto(pathToFileURL(dir+'/roundtrip.html').href+'#2');await q.locator('#editor').click();await q.locator('#edit-script-jump').click();assert.equal(await q.locator('#edit-script').inputValue(),typed);assert.equal(await q.locator('#source,#sources').count(),0);
+ assert.deepEqual(errors,[]);fs.writeFileSync(dir+'/results.json',JSON.stringify({slides:88,desktop,compact,checks:['left-right layout','page switching','notes-only changes','autosave restoration','saved HTML roundtrip','slide editor return','preview refresh','presenter edit entry and live sync','source controls/help removed'],errors},null,2));
+ console.log(JSON.stringify({slides:88,checks:'passed',errors},null,2));await b.close();
+})().catch(e=>{console.error(e);process.exit(1)});

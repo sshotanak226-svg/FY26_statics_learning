@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chapter9.md",
+                "file": "Chapter3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter9"
+              "title": "Chapter3"
             }
           },
           {
@@ -125,8 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "bb07bd99acaea702",
@@ -233,30 +232,31 @@
   },
   "active": "f0addb50e9ca73d8",
   "lastOpenFiles": [
-    "tmp/rendered/contact-6.jpg",
-    "tmp/rendered/contact-5.jpg",
-    "tmp/rendered/contact-4.jpg",
-    "tmp/rendered/contact-3.jpg",
-    "tmp/rendered/contact-2.jpg",
-    "tmp/rendered/contact-1.jpg",
-    "tmp/rendered/desktop.ini",
-    "tmp/html-audit.json",
-    "tmp/rendered/slide-34.png",
-    "tmp/rendered/slide-33.png",
-    "tmp/rendered/slide-32.png",
-    "tmp/rendered/slide-31.png",
-    "tmp/rendered/slide-30.png",
-    "tmp/rendered",
-    "tmp/check_html.cjs",
-    "output/html/1005tdh統計勉強会_連続確率分布と変数変換.html",
-    "output/html",
-    "output",
-    "tmp/build_html.py",
-    "tmp/source-pages",
-    "tmp",
+    "発表資料/９章　仮説検定と信頼区間_編集済み_1.html",
+    "発表資料/未確認 384709.crdownload",
+    "Pasted image 20261103230507.png",
+    "Chapter2_2.md",
+    "tmp/statistics-plot-deps/scipy/_external/array_api_compat/common/__pycache__/desktop.ini",
+    "tmp/statistics-plot-deps/scipy/_external/array_api_compat/__pycache__/desktop.ini",
+    "tmp/statistics-plot-deps/scipy/_external/array_api_compat/desktop.ini",
+    "tmp/statistics-plot-deps/scipy/_external/desktop.ini",
+    "tmp/statistics-plot-deps/scipy/stats/_levy_stable/__pycache__/desktop.ini",
+    "tmp/statistics-plot-deps/scipy/stats/_levy_stable/desktop.ini",
+    "tmp/statistics-plot-deps/scipy/stats/_rcont/__pycache__/desktop.ini",
+    "tmp/statistics-plot-deps/scipy/stats/_unuran/__pycache__/desktop.ini",
+    "tmp/statistics-plot-deps/scipy/stats/__pycache__/desktop.ini",
+    "tmp/pdfs/uploaded9-27.png",
+    "tmp/pdfs/uploaded9-26.png",
+    "tmp/pdfs/uploaded9-25.png",
+    "tmp/pdfs/uploaded9-24.png",
+    "tmp/pdfs/uploaded9-23.png",
+    "tmp/pdfs/uploaded9-22.png",
+    "tmp/pdfs/uploaded9-21.png",
+    "tmp/pdfs/uploaded9-20.png",
+    "tmp/pdfs/uploaded9-19.png",
+    "Chapter9.md",
     "標本平均の分布の導出.md",
     "補足資料/二項定理の一般化.md",
-    "Chapter9.md",
     "Chapter2_1.md",
     "0928_事前課題/正規分布と標本平均_数式の詳細解説.md",
     "Chapter1.md",

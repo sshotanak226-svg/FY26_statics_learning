@@ -1,0 +1,109 @@
+{
+  "records": [
+    {
+      "label": "upper left",
+      "x": 0.15,
+      "y": 0.2,
+      "mapped": {
+        "x": 0.14999476804245251,
+        "y": 0.19998513050122793
+      }
+    },
+    {
+      "label": "lower right",
+      "x": 0.92,
+      "y": 0.91,
+      "mapped": {
+        "x": 0.919998774517567,
+        "y": 0.9099972318679705
+      }
+    },
+    {
+      "label": "formula center",
+      "x": 0.59,
+      "y": 0.56,
+      "mapped": {
+        "x": 0.5899984875028554,
+        "y": 0.5599829949659204
+      }
+    },
+    {
+      "label": "before audience resize",
+      "x": 0.3,
+      "y": 0.4,
+      "mapped": {
+        "x": 0.2999994486502136,
+        "y": 0.39999580817776553
+      }
+    },
+    {
+      "label": "resized audience",
+      "x": 0.75,
+      "y": 0.65,
+      "mapped": {
+        "x": 0.7499994194640546,
+        "y": 0.6499886400489855
+      }
+    },
+    {
+      "label": "resized presenter",
+      "x": 0.65,
+      "y": 0.3,
+      "mapped": {
+        "x": 0.6499907066387758,
+        "y": 0.2999783137375439
+      }
+    },
+    {
+      "label": "next slide",
+      "x": 0.45,
+      "y": 0.5,
+      "mapped": {
+        "x": 0.44998780236368285,
+        "y": 0.499998966360427
+      }
+    },
+    {
+      "label": "fullscreen audience",
+      "x": 0.7,
+      "y": 0.7,
+      "mapped": {
+        "x": 0.6999878023636829,
+        "y": 0.6999938032047062
+      }
+    },
+    {
+      "label": "return slide",
+      "x": 0.2,
+      "y": 0.5,
+      "mapped": {
+        "x": 0.19998780236368285,
+        "y": 0.499998966360427
+      }
+    },
+    {
+      "label": "before close",
+      "x": 0.5,
+      "y": 0.5,
+      "mapped": {
+        "x": 0.49999941946405463,
+        "y": 0.499998966360427
+      }
+    }
+  ],
+  "checks": [
+    "mouse hover only",
+    "normalized slide coordinates",
+    "leave hides both dots",
+    "audience resize",
+    "presenter resize",
+    "page change hides dot",
+    "stale slide packet ignored",
+    "fullscreen coordinates",
+    "editor retained",
+    "slide data and autosave revision unchanged",
+    "saved HTML excludes active pointer",
+    "presenter close hides pointer"
+  ],
+  "errors": []
+}

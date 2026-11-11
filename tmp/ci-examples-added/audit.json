@@ -1,0 +1,30 @@
+{
+  "file": "F:/Document/Fy26 TDH statics lean/output/９章_仮説検定と信頼区間_例9.9と9.10追加.html",
+  "report": [
+    {
+      "page": 41,
+      "id": "example-9-9-ci-summary",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 42,
+      "id": "example-9-10-bernoulli-ci",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 43,
+      "id": "paired-ci",
+      "issues": [],
+      "mathErrors": []
+    },
+    {
+      "page": 44,
+      "id": "sample-size",
+      "issues": [],
+      "mathErrors": []
+    }
+  ],
+  "errors": []
+}

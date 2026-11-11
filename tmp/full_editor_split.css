@@ -1,0 +1,24 @@
+#edit-dialog .editor-panel{width:min(1760px,98vw);height:94vh;max-height:94vh;}
+#edit-dialog .editor-work{display:block;position:relative;flex:1;min-height:0;overflow:hidden;}
+#edit-dialog .edit-form,#edit-dialog.script-writing .edit-form{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:24px;height:100%;min-height:0;overflow:hidden;padding:18px 22px;}
+#edit-dialog .script-preview-column{grid-column:1;grid-row:1;}
+#edit-dialog .slide-edit-fields{grid-column:2;grid-row:1;min-width:0;min-height:0;overflow:auto;padding:0 8px 12px 0;overscroll-behavior:contain;}
+#edit-dialog .slide-edit-fields textarea{font-weight:400;}
+#edit-dialog .script-editor-field{display:none;grid-column:2;grid-row:1;}
+#edit-dialog.script-writing .script-editor-field{display:flex;}
+#edit-dialog .editor-selection-bar{display:none;}
+#edit-dialog .edit-nav{display:none;position:absolute;inset:12px auto 12px 22px;width:min(360px,calc(100% - 44px));z-index:3;border:1px solid #b7c9da;border-radius:8px;box-shadow:0 8px 28px #163b5533;background:#f5f8fc;}
+#edit-dialog.page-list-open:not(.script-writing) .edit-nav{display:block;}
+#edit-dialog.page-list-open:not(.script-writing) .editor-selection-bar{display:flex;}
+#toggle-slide-list[aria-expanded="true"]{background:#1467b3;color:white;}
+#edit-dialog .script-preview-heading span{font-size:13px;color:#526477;}
+@media(max-width:760px){
+ #edit-dialog .edit-form,#edit-dialog.script-writing .edit-form{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;padding:12px;}
+ #edit-dialog .script-preview-heading{display:flex;}
+ #edit-dialog .script-preview-heading span{display:none;}
+ #edit-dialog .script-slide-title{display:block;}
+ #edit-dialog .script-preview-column{min-height:0;}
+ #edit-dialog .script-slide-preview{min-height:100px;}
+ #edit-dialog .script-page-controls{flex-wrap:wrap;gap:4px;}
+ #edit-dialog .script-page-controls select{order:-1;flex-basis:100%;}
+}

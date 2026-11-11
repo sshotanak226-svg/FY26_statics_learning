@@ -1,0 +1,22 @@
+const {chromium}=require('C:/Users/User/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const {pathToFileURL}=require('url');const assert=require('assert/strict');
+(async()=>{
+ const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'});
+ const page=await browser.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(pathToFileURL(process.argv[2]).href+'#41');
+ await page.evaluate(()=>document.fonts.ready);
+ const state=await page.evaluate(()=>({count:deck.slides.length,slider:Number(document.getElementById('slide-seek').max),currentId:deck.slides[current].id}));
+ assert.equal(state.count,83);assert.equal(state.slider,83);assert.equal(state.currentId,'example-9-9-ci-summary');
+ await page.evaluate(()=>go(41));
+ assert.equal(await page.locator('#stage article').getAttribute('data-slide-id'),'example-9-10-bernoulli-ci');
+ assert.deepEqual(await page.evaluate(()=>mathErrors()),[]);
+ const saved=await page.evaluate(()=>buildSavedHTML());
+ const savedDeck=JSON.parse(saved.match(/<script id="deck-data" type="application\/json">([\s\S]*?)<\/script>/)[1]);
+ assert.equal(savedDeck.slides.length,83);
+ assert.equal(savedDeck.slides[40].id,'example-9-9-ci-summary');
+ assert.equal(savedDeck.slides[41].id,'example-9-10-bernoulli-ci');
+ assert(savedDeck.slides[41].notes.length>100);
+ assert.deepEqual(errors,[]);
+ console.log(JSON.stringify({slides:83,pageSliderSynced:true,newSlidesNavigable:true,savedHtmlPreservesNewSlides:true,allLatexValid:true,errors}));
+ await browser.close();
+})();

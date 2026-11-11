@@ -1,0 +1,17 @@
+{
+  "rangeSelection": true,
+  "nonContiguousBulkMove": true,
+  "relativeOrderPreserved": true,
+  "activeEditorPreserved": true,
+  "undo": true,
+  "stepMove": true,
+  "nativeDragDrop": true,
+  "insertionIndicator": true,
+  "autoScroll": true,
+  "cancelledDragDoesNotMove": true,
+  "autosaveRestore": true,
+  "allSelect": true,
+  "appendixPlaybackOrder": true,
+  "allSlideDataPreserved": true,
+  "runtimeErrors": []
+}
